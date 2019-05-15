@@ -80,7 +80,7 @@
 
                                         <div class="form-group">
                                             <label for="ip_address">IP Address</label>
-                                            <input type="text" id="ip_address" class="form-control" name="ip_address" value="<?PHP HTML::print($Server->IP); ?>">
+                                            <input type="text" id="ip_address" class="form-control" name="ip_address" value="<?PHP HTML::print($Server->IP); ?>" readonly>
                                         </div>
 
                                         <div class="form-group">

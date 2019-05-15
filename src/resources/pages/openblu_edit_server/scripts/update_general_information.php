@@ -6,11 +6,6 @@
         \OpenBlu\Abstracts\SearchMethods\VPN::byID, $_GET['id']
     );
 
-    if(isset($_POST['ip_address']))
-    {
-        $Server->IP = $_POST['ip_address'];
-    }
-
     if(isset($_POST['host_name']))
     {
         $Server->HostName = $_POST['host_name'];

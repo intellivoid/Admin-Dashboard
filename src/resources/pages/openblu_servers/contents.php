@@ -3,6 +3,17 @@
     /** @noinspection PhpUnhandledExceptionInspection */
     use DynamicalWeb\HTML;
 
+    if($_SERVER['REQUEST_METHOD'] == 'POST')
+    {
+        if(isset($_GET['action']))
+        {
+            if($_GET['action'] == 'search')
+            {
+                HTML::importScript('search');
+            }
+        }
+    }
+
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
@@ -21,6 +32,38 @@
                 <?PHP HTML::importScript('list_servers'); ?>
 
                 <div class="right_col" role="main">
+                    <div class="row">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Search</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <form action="/openblu_servers?action=search" method="POST">
+
+                                    <div class="form-group">
+                                        <label for="search_method" class="control-label col-md-3 col-sm-3 col-xs-12">Search Method</label>
+                                        <div class="col-md-9 col-sm-9 col-xs-12">
+                                            <input type="text" name="search_method" id="search_method" class="form-control" placeholder="id/public_id/ip">
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <br/>
+
+                                    <div class="form-group">
+                                        <label for="search_value" class="control-label col-md-3 col-sm-3 col-xs-12">Value</label>
+                                        <div class="col-md-9 col-sm-9 col-xs-12">
+                                            <input type="text" name="search_value" id="search_value" class="form-control" placeholder="Search value">
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger">Search</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="x_panel">
                             <div class="x_title">
