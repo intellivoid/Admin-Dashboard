@@ -1,26 +1,34 @@
+<?PHP
+
+    /** @noinspection PhpUnhandledExceptionInspection */
+    use DynamicalWeb\HTML;
+
+?>
 <!doctype html>
-<html lang="<?PHP \DynamicalWeb\HTML::print(APP_LANGUAGE_ISO_639); ?>">
+<html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
-        <?PHP \DynamicalWeb\HTML::importSection('header'); ?>
-        <title><?PHP \DynamicalWeb\HTML::print(TEXT_PAGE_TITLE); ?></title>
+        <?PHP HTML::importSection('header'); ?>
+        <title>Intellivoid Admin</title>
     </head>
 
     <body class="nav-md">
-    <div class="container body">
-        <div class="main_container">
-            <?PHP \DynamicalWeb\HTML::importSection('sideview'); ?>
-            <?PHP \DynamicalWeb\HTML::importSection('navigation'); ?>
+        <div class="container body">
 
-            <div class="right_col" role="main">
+            <div class="main_container">
+
+                <?PHP HTML::importSection('sideview'); ?>
+                <?PHP HTML::importSection('navigation'); ?>
+
+                <div class="right_col" role="main">
+
+                </div>
+
+                <?PHP HTML::importSection('footer'); ?>
 
             </div>
 
-            <?PHP \DynamicalWeb\HTML::importSection('footer'); ?>
-            <!-- /footer content -->
         </div>
-    </div>
 
-    <?PHP \DynamicalWeb\HTML::importSection('js_scripts'); ?>
-
+        <?PHP HTML::importSection('js_scripts'); ?>
     </body>
 </html>
