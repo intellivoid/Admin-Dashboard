@@ -84,12 +84,10 @@
 
         foreach(getServerPage($openBlu, $Page) as $server)
         {
-            print("<tr>");
+            print("<tr onclick=\"location.href='openblu_edit_server?id=" . urlencode($server['id']) . "';\">");
 
             print("<th scope=\"row\">");
-            print("<a href=\"openblu_edit_server?id=" . urlencode($server['id']) . "\">");
             \DynamicalWeb\HTML::print($server['id']);
-            print("</a>");
             print("</th>");
 
             print("<td>");

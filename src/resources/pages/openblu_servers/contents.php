@@ -74,7 +74,7 @@
                                 <div class="clearfix"></div>
                             </div>
                             <div class="x_content">
-                                <table class="table">
+                                <table class="table table-responsive table-hover">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
