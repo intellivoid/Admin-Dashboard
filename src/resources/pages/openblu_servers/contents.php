@@ -44,7 +44,11 @@
                                     <div class="form-group">
                                         <label for="search_method" class="control-label col-md-3 col-sm-3 col-xs-12">Search Method</label>
                                         <div class="col-md-9 col-sm-9 col-xs-12">
-                                            <input type="text" name="search_method" id="search_method" class="form-control" placeholder="id/public_id/ip">
+                                            <select name="search_method" autocomplete="off" id="search_method" class="form-control">
+                                                <option value="id">ID</option>
+                                                <option value="public_id">Public ID</option>
+                                                <option value="ip_address">IP Address</option>
+                                            </select>
                                         </div>
                                     </div>
 
