@@ -18,6 +18,9 @@
     <div class="menu_section">
         <h3>System</h3>
         <ul class="nav side-menu">
+            <li>
+                <a href="/terminal"><i class="fa fa-terminal"></i> Terminal </a>
+            </li>
         </ul>
     </div>
 
