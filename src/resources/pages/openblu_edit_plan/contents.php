@@ -125,6 +125,12 @@
                                         </div>
 
                                         <div class="form-group">
+                                            <label for="access_key_id">Access Key ID</label>
+                                            <input type="text" id="access_key_id" class="form-control" name="access_key_id" value="<?PHP HTML::print($Plan->AccessKeyId); ?>" readonly>
+                                        </div>
+                                        <button type="button" class="btn btn-block btn-success" onclick="location.href='/openblu_edit_access_key?id=<?PHP print(urlencode($Plan->AccessKeyId)); ?>'">View</button>
+
+                                        <div class="form-group">
                                             <label for="active">Active</label>
                                             <select name="active" autocomplete="off" id="active" class="form-control">
                                                 <option value="0"<?PHP if($Plan->Active == false){ print(' selected'); } ?>>False</option>

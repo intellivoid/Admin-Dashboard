@@ -106,7 +106,9 @@
             print("</td>");
 
             print("<td>");
+            print("<a href=\"/openblu_edit_access_key?id=" . urlencode($plan['access_key_id']) . "\">");
             \DynamicalWeb\HTML::print($plan['access_key_id']);
+            print("</a>");
             print("</td>");
 
             print("<td>");

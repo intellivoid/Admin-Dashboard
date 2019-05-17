@@ -36,5 +36,9 @@
 <script src="/assets/vendors/moment/min/moment.min.js"></script>
 <script src="/assets/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 
+<script src="/assets/vendors/raphael/raphael.min.js"></script>
+
+<script src="/assets/vendors/morris.js/morris.min.js"></script>
+
 <!-- Custom Theme Scripts -->
 <script src="/assets/js/custom.min.js"></script>
