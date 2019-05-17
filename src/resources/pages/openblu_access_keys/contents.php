@@ -29,7 +29,7 @@
 
                 <?PHP HTML::importSection('sideview'); ?>
                 <?PHP HTML::importSection('navigation'); ?>
-                <?PHP HTML::importScript('list_plans'); ?>
+                <?PHP HTML::importScript('list_access_keys'); ?>
 
                 <div class="right_col" role="main">
                     <div class="row">
@@ -39,15 +39,15 @@
                                 <div class="clearfix"></div>
                             </div>
                             <div class="x_content">
-                                <form action="/openblu_plans?action=search" method="POST">
+                                <form action="/openblu_access_keys?action=search" method="POST">
 
                                     <div class="form-group">
                                         <label for="search_method" class="control-label col-md-3 col-sm-3 col-xs-12">Search Method</label>
                                         <div class="col-md-9 col-sm-9 col-xs-12">
                                             <select name="search_method" autocomplete="off" id="search_method" class="form-control">
                                                 <option value="id">ID</option>
-                                                <option value="account_id">Account ID</option>
-                                                <option value="access_key_id">Access Key ID</option>
+                                                <option value="public_id">Public ID</option>
+                                                <option value="public_key">Public Key</option>
                                             </select>
                                         </div>
                                     </div>
@@ -71,8 +71,7 @@
                     <div class="row">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2> OpenBlu Plans
-                                    <small>Active user API Plans</small>
+                                <h2> OpenBlu Access Keys
                                 </h2>
 
                                 <div class="clearfix"></div>
