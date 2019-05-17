@@ -14,6 +14,20 @@
         }
     }
 
+    if($_SERVER['REQUEST_METHOD'] == 'GET')
+    {
+        if(isset($_GET['action']))
+        {
+            if($_GET['action'] == 'search')
+            {
+                if(isset($_GET['public_id']))
+                {
+                    HTML::importScript('search_pub');
+                }
+            }
+        }
+    }
+
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
