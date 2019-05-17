@@ -84,10 +84,12 @@
 
         foreach(getPlanPage($openBlu, $Page) as $plan)
         {
-            print("<tr onclick=\"location.href='openblu_edit_plan?id=" . urlencode($plan['id']) . "';\">");
+            print("<tr>");
 
             print("<th scope=\"row\">");
+            print("<a href=\"/openblu_edit_plan?id=" . urlencode($plan['id']) . "\">");
             \DynamicalWeb\HTML::print($plan['id']);
+            print("</a>");
             print("</th>");
 
             print("<td>");
