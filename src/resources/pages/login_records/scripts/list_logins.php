@@ -78,13 +78,11 @@
             print("<tr>");
 
             print("<th scope=\"row\">");
-            print("<a href=\"/edit_account?id=" . urlencode($login_record['id']) . "\">");
             \DynamicalWeb\HTML::print($login_record['id']);
-            print("</a>");
             print("</th>");
 
             print("<td>");
-            \DynamicalWeb\HTML::print(substr($login_record['public_id'], 0, 15) . '...');
+            \DynamicalWeb\HTML::print(substr($login_record['public_id'], 0, 25) . '...');
             print("</td>");
 
             print("<td>");
@@ -103,8 +101,23 @@
             \DynamicalWeb\HTML::print($login_record['time']);
             print("</td>");
 
+            $Status = 'Unknown';
+            switch($login_record['status'])
+            {
+                case \IntellivoidAccounts\Abstracts\LoginStatus::Successful:
+                    $Status = 'Successful';
+                    break;
+
+                case \IntellivoidAccounts\Abstracts\LoginStatus::IncorrectCredentials:
+                    $Status = 'Incorrect Credentials';
+                    break;
+
+                case \IntellivoidAccounts\Abstracts\LoginStatus::IncorrectVerificationCode:
+                    $Status = 'Incorrect Verification Code';
+                    break;
+            }
             print("<td>");
-            \DynamicalWeb\HTML::print($login_record['status']);
+            \DynamicalWeb\HTML::print($Status);
             print("</td>");
 
             print("</tr>");
