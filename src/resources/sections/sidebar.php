@@ -5,6 +5,12 @@
             <li>
                 <a href="/"><i class="fa fa-home"></i> Home </a>
             </li>
+            <li><a><i class="fa fa-cloud"></i> Services <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="/accounts">Accounts</a></li>
+                    <li><a href="/login_records">Login Records</a></li>
+                </ul>
+            </li>
             <li><a><i class="fa fa-key"></i> OpenBlu <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
                     <li><a href="/openblu_servers">Servers</a></li>
