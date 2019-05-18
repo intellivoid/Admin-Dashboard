@@ -3,6 +3,17 @@
     /** @noinspection PhpUnhandledExceptionInspection */
     use DynamicalWeb\HTML;
 
+    if($_SERVER['REQUEST_METHOD'] == 'POST')
+    {
+        if(isset($_GET['action']))
+        {
+            if($_GET['action'] == 'update_information')
+            {
+                HTML::importScript('update_information');
+            }
+        }
+    }
+
     \DynamicalWeb\DynamicalWeb::loadLibrary('IntellivoidAccounts', 'IntellivoidAccounts', 'IntellivoidAccounts.php');
     $IntellivoidAccounts = new \IntellivoidAccounts\IntellivoidAccounts();
 
@@ -29,12 +40,12 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>Actions</h2>
+                                    <h2>General Information</h2>
                                     <div class="clearfix"></div>
                                 </div>
 
                                 <div class="x_content">
-                                    <form>
+                                    <form action="/edit_account?action=update_information&id=<?PHP print(urlencode($_GET['id'])); ?>" method="POST">
 
                                         <div class="form-group">
                                             <label for="id">ID</label>
