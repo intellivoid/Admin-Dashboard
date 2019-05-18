@@ -6,6 +6,11 @@
     function totalLoginPages(\IntellivoidAccounts\IntellivoidAccounts $intellivoidAccounts): int
     {
         $Query = "SELECT id FROM `login_records`";
+        if(isset($_GET['filter']))
+        {
+            $ID = (int)$_GET['filter'];
+            $Query = "SELECT id FROM `login_records` WHERE account_id=$ID";
+        }
         $QueryResults = $intellivoidAccounts->database->query($Query);
 
         if($QueryResults == false)
@@ -33,6 +38,12 @@
         if($page == 1)
         {
             $Query = "SELECT id, public_id, account_id, ip_address, origin, time, status FROM `login_records` ORDER BY `time` DESC LIMIT 0, 100";
+            if(isset($_GET['filter']))
+            {
+                $ID = (int)$_GET['filter'];
+                $Query = "SELECT id, public_id, account_id, ip_address, origin, time, status FROM `login_records` WHERE account_id=$ID ORDER BY `time` DESC LIMIT 0, 100";
+
+            }
         }
         else
         {
@@ -50,6 +61,12 @@
             }
 
             $Query = "SELECT id, public_id, account_id, ip_address, origin, time, status FROM `login_records` ORDER BY `time` DESC LIMIT $StartingItem, 100";
+            if(isset($_GET['filter']))
+            {
+                $ID = (int)$_GET['filter'];
+                $Query = "SELECT id, public_id, account_id, ip_address, origin, time, status FROM `login_records` WHERE account_id=$ID ORDER BY `time` DESC LIMIT $StartingItem, 100";
+
+            }
         }
 
         $QueryResults = $intellivoidAccounts->database->query($Query);
@@ -86,7 +103,9 @@
             print("</td>");
 
             print("<td>");
+            print("<a href=\"/edit_account?id=" . urlencode($login_record['account_id']) . "\">");
             \DynamicalWeb\HTML::print($login_record['account_id']);
+            print("</a>");
             print("</td>");
 
             print("<td>");

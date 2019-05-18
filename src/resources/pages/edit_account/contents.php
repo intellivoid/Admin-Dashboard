@@ -120,6 +120,7 @@
                                         <button type="submit" class="btn btn-block btn-success">Save Changes</button>
 
                                     </form>
+                                    <button type="button" onclick="location.href='/login_records&filter=<?PHP print(urlencode($_GET['id'])); ?>'" class="btn btn-block btn-info">View Login History</button>
                                 </div>
                             </div>
                         </div>
