@@ -8,6 +8,11 @@
     function totalRequestPages(\OpenBlu\OpenBlu $openBlu): int
     {
         $Query = "SELECT id FROM `requests`";
+        if(isset($_GET['filter']))
+        {
+            $Filter = $openBlu->database->real_escape_string($_GET['filter']);
+            $Query = "SELECT id FROM `requests` WHERE access_key_public_id='$Filter'";
+        }
         $QueryResults = $openBlu->database->query($Query);
 
         if($QueryResults == false)
@@ -35,6 +40,12 @@
         if($page == 1)
         {
             $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` LIMIT 0, 80";
+
+            if(isset($_GET['filter']))
+            {
+                $Filter = $openBlu->database->real_escape_string($_GET['filter']);
+                $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` WHERE access_key_public_id='$Filter' LIMIT 0, 80";
+            }
         }
         else
         {
@@ -52,6 +63,12 @@
             }
 
             $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` LIMIT $StartingItem, 80";
+
+            if(isset($_GET['filter']))
+            {
+                $Filter = $openBlu->database->real_escape_string($_GET['filter']);
+                $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` WHERE access_key_public_id='$Filter' LIMIT $StartingItem, 80";
+            }
         }
 
         $QueryResults = $openBlu->database->query($Query);

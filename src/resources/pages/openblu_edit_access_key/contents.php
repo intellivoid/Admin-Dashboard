@@ -73,6 +73,8 @@
                                             <input type="text" id="creation_date" class="form-control" name="creation_date" value="<?PHP HTML::print($AccessKey->CreationDate); ?>" readonly>
                                         </div>
 
+                                        <button type="button" class="btn btn-block btn-info" onclick="location.href='/openblu_requests?filter=<?PHP print(urlencode($AccessKey->PublicID)); ?>';">View Request History</button>
+
                                     </form>
                                 </div>
                             </div>

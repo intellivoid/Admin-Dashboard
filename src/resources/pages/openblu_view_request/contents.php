@@ -2,14 +2,15 @@
 
     /** @noinspection PhpUnhandledExceptionInspection */
     use DynamicalWeb\HTML;
-use OpenBlu\Exceptions\DatabaseException;
-use OpenBlu\Exceptions\VPNNotFoundException;
-use OpenBlu\Objects\VPN;
+    use OpenBlu\Exceptions\DatabaseException;
+    use OpenBlu\Exceptions\VPNNotFoundException;
+    use OpenBlu\Objects\VPN;
 
-\DynamicalWeb\DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
+    \DynamicalWeb\DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
     $OpenBlu = new \OpenBlu\OpenBlu();
 
     $ID = (int)$_GET['id'];
+
     $Query = "SELECT id, refrence_id, execution_time, timestamp, client_ip, version, module, request_method, request_parameters, response_type, response_code, authentication_method, access_key_public_id, fatal_error, exception_details FROM `requests` WHERE id=$ID";
 
     $QueryResults = $OpenBlu->database->query($Query);
