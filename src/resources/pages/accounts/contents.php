@@ -3,6 +3,9 @@
     /** @noinspection PhpUnhandledExceptionInspection */
     use DynamicalWeb\HTML;
 
+    \DynamicalWeb\DynamicalWeb::loadLibrary('IntellivoidAccounts', 'IntellivoidAccounts', 'IntellivoidAccounts.php');
+
+    HTML::importScript('list_accounts');
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
@@ -20,6 +23,39 @@
                 <?PHP HTML::importSection('navigation'); ?>
 
                 <div class="right_col" role="main">
+                    <div class="row">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2> Accounts </h2>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+
+                                <table class="table table-responsive table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Public ID</th>
+                                            <th>Username</th>
+                                            <th>Email</th>
+                                            <th>Status</th>
+                                            <th>Last Login ID</th>
+                                            <th>Creation Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?PHP $IntellivoidAccounts = new \IntellivoidAccounts\IntellivoidAccounts(); ?>
+                                        <?PHP printTable($IntellivoidAccounts); ?>
+                                    </tbody>
+                                </table>
+
+                                <ul class="pagination">
+                                    <?PHP printIndex($IntellivoidAccounts); ?>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
