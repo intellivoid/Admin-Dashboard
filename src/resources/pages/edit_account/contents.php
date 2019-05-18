@@ -11,6 +11,11 @@
             {
                 HTML::importScript('update_information');
             }
+
+            if($_GET['action'] == 'update_personal_information')
+            {
+                HTML::importScript('personal_information');
+            }
         }
     }
 
@@ -108,7 +113,7 @@
                                 </div>
 
                                 <div class="x_content">
-                                    <form>
+                                    <form method="POST" action="/edit_account?id=<?PHP print(urlencode($_GET['id'])) ?>&action=update_personal_information">
 
                                         <div class="form-group">
                                             <label for="first_name">First Name</label>
