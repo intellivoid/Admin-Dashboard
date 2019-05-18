@@ -16,6 +16,26 @@
             {
                 HTML::importScript('personal_information');
             }
+
+            if($_GET['action'] == 'add_balance')
+            {
+                HTML::importScript('add_balance');
+            }
+
+            if($_GET['action'] == 'remove_balance')
+            {
+                HTML::importScript('remove_balance');
+            }
+        }
+    }
+    else
+    {
+        if(isset($_GET['action']))
+        {
+            if($_GET['action'] == 'reset_balance')
+            {
+                HTML::importScript('reset_balance');
+            }
         }
     }
 
@@ -169,27 +189,25 @@
                                     <h4>Current Balance: $<?PHP HTML::print((string)$Account->Configuration->Balance); ?> U.S.</h4>
 
                                     <hr/>
-                                    <form>
+                                    <form action="/edit_account?action=add_balance&id=<?PHP print(urlencode($_GET['id'])); ?>" method="POST">
                                         <div class="form-group">
                                             <label for="balance">Add to Balance</label>
                                             <input type="text" id="balance" class="form-control" name="balance" value="0">
                                         </div>
                                         <button type="submit" class="btn btn-success">Add to balance</button>
-
                                     </form>
 
                                     <hr/>
-                                    <form>
+                                    <form action="/edit_account?action=remove_balance&id=<?PHP print(urlencode($_GET['id'])); ?>" method="POST">
                                         <div class="form-group">
                                             <label for="balance">Remove from Balance</label>
                                             <input type="text" id="balance" class="form-control" name="balance" value="0">
                                         </div>
                                         <button type="submit" class="btn btn-danger">Remove from balance</button>
-
                                     </form>
 
                                     <hr/>
-                                    <button type="button" class="btn btn-danger">Reset Balance</button>
+                                    <button type="button" onclick="location.href='/edit_account?action=reset_balance&id=<?PHP print(urlencode($_GET['id'])); ?>'" class="btn btn-danger">Reset Balance</button>
 
                                 </div>
                             </div>
