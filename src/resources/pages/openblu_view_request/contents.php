@@ -2,9 +2,8 @@
 
     /** @noinspection PhpUnhandledExceptionInspection */
     use DynamicalWeb\HTML;
-    use OpenBlu\Exceptions\DatabaseException;
-    use OpenBlu\Exceptions\VPNNotFoundException;
-    use OpenBlu\Objects\VPN;
+    HTML::importScript('check_auth');
+    HTML::importScript('require_auth');
 
     \DynamicalWeb\DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
     $OpenBlu = new \OpenBlu\OpenBlu();

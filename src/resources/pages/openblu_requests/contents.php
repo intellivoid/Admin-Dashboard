@@ -2,6 +2,8 @@
 
     /** @noinspection PhpUnhandledExceptionInspection */
     use DynamicalWeb\HTML;
+    HTML::importScript('check_auth');
+    HTML::importScript('require_auth');
 
     HTML::importScript('list_requests');
 

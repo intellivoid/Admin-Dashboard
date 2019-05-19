@@ -1,5 +1,10 @@
 <?php
 
+use DynamicalWeb\HTML;
+
+HTML::importScript('check_auth');
+HTML::importScript('require_auth');
+
 // Disable login (don't ask for credentials, be careful)
 // Example: $NO_LOGIN = true;
 $NO_LOGIN = true;
