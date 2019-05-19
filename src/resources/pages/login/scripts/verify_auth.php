@@ -1,14 +1,12 @@
 <?php
 
-use DynamicalWeb\DynamicalWeb;
-use DynamicalWeb\HTML;
-use sws\sws;
+    use DynamicalWeb\DynamicalWeb;
+    use sws\sws;
 
     if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
         if(isset($_POST['authentication_code']))
         {
-
             try
             {
                 DynamicalWeb::loadLibrary('sws', 'sws', 'sws.php');

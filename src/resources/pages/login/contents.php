@@ -29,7 +29,7 @@
                                 <input name="authentication_code" id="authentication_code" type="text" class="form-control" placeholder="Authentication Code" required="" />
                             </div>
                             <div>
-                                <a class="btn btn-default submit" href="/">Authenticate</a>
+                                <input class="btn btn-default submit" type="submit" value="Authenticate">
                             </div>
 
                             <div class="clearfix"></div>
