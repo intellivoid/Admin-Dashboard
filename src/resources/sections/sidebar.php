@@ -7,19 +7,62 @@
             </li>
             <li><a><i class="fa fa-cloud"></i> Services <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
-                    <li><a href="/accounts">Accounts</a></li>
-                    <li><a href="/login_records">Login Records</a></li>
+                    <li>
+                        <a href="/accounts">
+                            <i class="fa fa-users" style="font-size: 12px"></i> Accounts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/login_records">
+                            <i class="fa fa-list" style="font-size: 12px"></i> Login Records
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li><a><i class="fa fa-key"></i> OpenBlu <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
-                    <li><a href="/openblu_servers">Servers</a></li>
-                    <li><a href="/openblu_plans">Plans</a></li>
-                    <li><a href="/openblu_access_keys">API Access Keys</a></li>
-                    <li><a href="/openblu_requests">Requests</a></li>
+                    <li>
+                        <a href="/openblu_servers">
+                            <i class="fa fa-server" style="font-size: 12px"></i> Servers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/openblu_plans">
+                            <i class="fa fa-buysellads" style="font-size: 12px"></i> Plans
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/openblu_access_keys">
+                            <i class="fa fa-gear" style="font-size: 12px"></i> API Access Keys
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/openblu_requests">
+                            <i class="fa fa-globe" style="font-size: 12px"></i> API Requests
+                        </a>
+                    </li>
+                </ul>
+
+            </li>
+            <li><a><i class="fa fa-cube"></i> Web Services <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li>
+                        <a href="/openblu_web_application">
+                            <i class="fa fa-desktop" style="font-size: 12px"></i> OpenBlu Web Application
+                        </a>
+                    </li>
                 </ul>
             </li>
-
+            <li><a><i class="fa fa-code"></i> API Services <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li>
+                        <a href="/openblu_api">
+                            <i class="fa fa-code-fork" style="font-size: 12px"></i> OpenBlu API
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
     <div class="menu_section">
         <h3>System</h3>
