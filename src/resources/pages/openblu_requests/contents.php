@@ -38,7 +38,7 @@
                                     <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Refrence ID</th>
+                                        <th>Reference ID</th>
                                         <th>Access Key Public ID</th>
                                         <th>Execution Time</th>
                                         <th>Client IP</th>

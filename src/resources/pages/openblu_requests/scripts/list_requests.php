@@ -39,12 +39,12 @@
         $Query = null;
         if($page == 1)
         {
-            $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` LIMIT 0, 80";
+            $Query = "SELECT id, reference_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` LIMIT 0, 80";
 
             if(isset($_GET['filter']))
             {
                 $Filter = $openBlu->database->real_escape_string($_GET['filter']);
-                $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` WHERE access_key_public_id='$Filter' LIMIT 0, 80";
+                $Query = "SELECT id, reference_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` WHERE access_key_public_id='$Filter' LIMIT 0, 80";
             }
         }
         else
@@ -62,12 +62,12 @@
                 }
             }
 
-            $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` LIMIT $StartingItem, 80";
+            $Query = "SELECT id, reference_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` LIMIT $StartingItem, 80";
 
             if(isset($_GET['filter']))
             {
                 $Filter = $openBlu->database->real_escape_string($_GET['filter']);
-                $Query = "SELECT id, refrence_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` WHERE access_key_public_id='$Filter' LIMIT $StartingItem, 80";
+                $Query = "SELECT id, reference_id, access_key_public_id, execution_time, client_ip, version, module, request_method, response_type, response_code, authentication_method FROM `requests` WHERE access_key_public_id='$Filter' LIMIT $StartingItem, 80";
             }
         }
 
@@ -110,7 +110,7 @@
             print("</th>");
 
             print("<td>");
-            \DynamicalWeb\HTML::print(substr($request['refrence_id'], 0, 15) . '...');
+            \DynamicalWeb\HTML::print(substr($request['reference_id'], 0, 15) . '...');
             print("</td>");
 
             print("<td>");

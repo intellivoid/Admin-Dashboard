@@ -10,7 +10,7 @@
 
     $ID = (int)$_GET['id'];
 
-    $Query = "SELECT id, refrence_id, execution_time, timestamp, client_ip, version, module, request_method, request_parameters, response_type, response_code, authentication_method, access_key_public_id, fatal_error, exception_details FROM `requests` WHERE id=$ID";
+    $Query = "SELECT id, reference_id, execution_time, timestamp, client_ip, version, module, request_method, request_parameters, response_type, response_code, authentication_method, access_key_public_id, fatal_error, exception_details FROM `requests` WHERE id=$ID";
 
     $QueryResults = $OpenBlu->database->query($Query);
     $Row = $QueryResults->fetch_array(MYSQLI_ASSOC);
@@ -53,7 +53,7 @@
                                         </tr>
                                         <tr>
                                             <td>Reference ID</td>
-                                            <td><?PHP HTML::print($Row['refrence_id']); ?></td>
+                                            <td><?PHP HTML::print($Row['reference_id']); ?></td>
                                         </tr>
                                         <tr>
                                             <td>Execution Time</td>
