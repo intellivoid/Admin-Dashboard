@@ -74,7 +74,7 @@
         $QueryResults = $openBlu->database->query($Query);
         if($QueryResults == false)
         {
-            die($this->openBlu->database->error);
+            die($openBlu->database->error);
         }
         else
         {

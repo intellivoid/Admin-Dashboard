@@ -1,8 +1,10 @@
 {
 	"openblu_web_application": {
-		"location": "/home/netkas/Documents/gits/openblu-web-application/src"
+		"location": "C:\\Users\\Netkas\\Documents\\gits\\OpenBlu-Web-Application\\src",
+		"linux_location": "/home/netkas/Documents/gits/openblu-web-application/src"
 	},
 	"openblu_api": {
-		"location": "/home/netkas/Documents/gits/openblu-api/src"
+		"location": "C:\\Users\\Netkas\\Documents\\gits\\OpenBluAPI\\src",
+		"linux_location": "/home/netkas/Documents/gits/openblu-api/src"
 	}
 }
