@@ -17,6 +17,11 @@
                             <i class="fa fa-list" style="font-size: 12px"></i> Login Records
                         </a>
                     </li>
+                    <li>
+                        <a href="/support_tickets">
+                            <i class="fa fa-support" style="font-size: 12px"></i> Support Tickets
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li><a><i class="fa fa-key"></i> OpenBlu <span class="fa fa-chevron-down"></span></a>
