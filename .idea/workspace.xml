@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Abstracts/ExceptionCodes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Abstracts/SupportTicketSearchMethod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Abstracts/TicketStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/ConfigurationNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/DatabaseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/InvalidEmailException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/InvalidMessageException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/InvalidSearchMethodException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/InvalidSourceException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/InvalidSubjectException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/InvalidTicketNotesException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Exceptions/SupportTicketNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Managers/TicketManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Objects/SupportTicket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Support.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Utilities/Hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Utilities/Validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/configuration.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/support.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/support_tickets/contents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,66 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/configuration.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="92" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/sections/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-              <folding>
-                <element signature="e#7#37#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/libraries/Support/Objects/SupportTicket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="394">
+              <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -289,18 +210,18 @@
       <workItem from="1558627827075" duration="1033000" />
       <workItem from="1558634257277" duration="874000" />
       <workItem from="1559689154148" duration="753000" />
-      <workItem from="1559761963333" duration="2763000" />
+      <workItem from="1559761963333" duration="6688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5423000" />
+    <option name="totallyTimeSpent" value="9348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,7 +239,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20953101" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20953101" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,13 +257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="92" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -368,13 +282,20 @@
         <state relative-caret-position="-510" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="92" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-          <folding>
-            <element signature="e#7#37#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="394">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,8 @@
 
     use DynamicalWeb\DynamicalWeb;
     use DynamicalWeb\HTML;
-    use Support\Support;
+use Support\Abstracts\TicketStatus;
+use Support\Support;
 
     DynamicalWeb::loadLibrary('Support', 'Support', 'Support.php');
 
@@ -112,7 +113,7 @@
             print("</th>");
 
             print("<td>");
-            HTML::print($ticket['ticket_number']);
+            HTML::print(substr($ticket['ticket_number'], 0, 15) . '...');
             print("</td>");
 
             print("<td>");
@@ -120,11 +121,39 @@
             print("</td>");
 
             print("<td>");
-            HTML::print(substr($ticket['subject'], 0, 15) . '...');
+            if(strlen($ticket['subject']) > 15)
+            {
+                HTML::print(substr($ticket['subject'], 0, 15) . '...');
+            }
+            else
+            {
+                HTML::print($ticket['subject']);
+            }
             print("</td>");
 
             print("<td>");
-            HTML::print($ticket['ticket_status']);
+            switch($ticket['ticket_status'])
+            {
+                case TicketStatus::Opened:
+                    print("<span class=\"label label-info\">Opened</span>");
+                    break;
+
+                case TicketStatus::InProgress:
+                    print("<span class=\"label label-warning\">In Progress</span>");
+                    break;
+
+                case TicketStatus::UnableToResolve:
+                    print("<span class=\"label label-danger\">Unable To Resolve</span>");
+                    break;
+
+                case TicketStatus::Resolved:
+                    print("<span class=\"label label-success\">Resolved</span>");
+                    break;
+
+                default:
+                    print("<span class=\"label label-primary\">Unknown</span>");
+                    break;
+            }
             print("</td>");
 
             print("<td>");
