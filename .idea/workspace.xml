@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_notes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/view_support_ticket/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/view_support_ticket/contents.php" afterDir="false" />
-    </list>
+    <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_notes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="315">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -276,12 +273,12 @@
       <workItem from="1558634257277" duration="874000" />
       <workItem from="1559689154148" duration="753000" />
       <workItem from="1559761963333" duration="8858000" />
-      <workItem from="1559871645860" duration="6553000" />
+      <workItem from="1559871645860" duration="7154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18071000" />
+    <option name="totallyTimeSpent" value="18672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -424,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_notes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="315">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
