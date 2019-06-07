@@ -6,6 +6,7 @@
     HTML::importScript('require_auth');
 
     \DynamicalWeb\DynamicalWeb::loadLibrary('Support', 'Support', 'Support.php');
+    HTML::importScript('update_ticket_status');
     $Support = new \Support\Support();
 
     $SupportTicket = $Support->getTicketManager()->getSupportTicket(\Support\Abstracts\SupportTicketSearchMethod::byId, $_GET['id']);
@@ -37,7 +38,18 @@
                                 </div>
 
                                 <div class="x_content">
-
+                                    <button class="btn btn-block btn-info" onclick="location.href='/view_support_ticket?action=update&method=opened&id=<?PHP print(urlencode($_GET['id'])); ?>'">
+                                        Set as Opened <i class="fa fa-eye"></i>
+                                    </button>
+                                    <button class="btn btn-block btn-warning" onclick="location.href='/view_support_ticket?action=update&method=in_progress&id=<?PHP print(urlencode($_GET['id'])); ?>'">
+                                        Set as In Progress <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                    <button class="btn btn-block btn-danger" onclick="location.href='/view_support_ticket?action=update&method=unable_to_resolve&id=<?PHP print(urlencode($_GET['id'])); ?>'">
+                                        Set as Unable to Resolve <i class="fa fa-close"></i>
+                                    </button>
+                                    <button class="btn btn-block btn-success" onclick="location.href='/view_support_ticket?action=update&method=resolved&id=<?PHP print(urlencode($_GET['id'])); ?>'">
+                                        Set as Resolved <i class="fa fa-check"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -64,6 +76,8 @@
 
                                     <div class="form-group">
                                         <label for="response_email">Response Email</label>
+                                        <br/>
+                                        <a href="mailto:<?PHP HTML::print($SupportTicket->ResponseEmail); ?>">Send Email</a>
                                         <input type="text" id="response_email" class="form-control" name="response_email" value="<?PHP HTML::print($SupportTicket->ResponseEmail); ?>" readonly>
                                     </div>
 
@@ -104,35 +118,47 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>Ticket Information</h2>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" id="subject" class="form-control" name="subject" value="<?PHP HTML::print($SupportTicket->Subject); ?>" readonly>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="user_message">User Message</label>
+                                            <textarea id="user_message" class="form-control" rows="10" name="json" readonly><?PHP HTML::print($SupportTicket->Message); ?></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="admin_notes">Administrator Notes</label>
+                                            <textarea id="admin_notes" class="form-control" rows="10" name="admin_notes"><?PHP HTML::print($SupportTicket->TicketNotes); ?></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-primary" value="Save Administrator Notes">
+                                        </div>
+                                    </form>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <?PHP HTML::importSection('footer'); ?>
 
             </div>
 
-        </div>
-
-        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-                        </button>
-                        <h4 class="modal-title" id="myModalLabel2">Modal title</h4>
-                    </div>
-                    <div class="modal-body">
-                        <h4>Text in a modal</h4>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-
-                </div>
-            </div>
         </div>
 
         <?PHP HTML::importSection('js_scripts'); ?>

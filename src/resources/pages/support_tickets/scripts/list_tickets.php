@@ -113,7 +113,7 @@ use Support\Support;
             print("</th>");
 
             print("<td>");
-            HTML::print(substr($ticket['ticket_number'], 0, 15) . '...');
+            HTML::print($ticket['ticket_number']);
             print("</td>");
 
             print("<td>");
