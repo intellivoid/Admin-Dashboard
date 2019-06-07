@@ -28,6 +28,11 @@
             {
                 HTML::importScript('remove_balance');
             }
+
+            if($_GET['action'] == 'create_transaction')
+            {
+                HTML::importScript('process_transaction');
+            }
         }
     }
     else
@@ -190,27 +195,34 @@
 
                                 <div class="x_content">
                                     <h4>Current Balance: $<?PHP HTML::print((string)$Account->Configuration->Balance); ?> U.S.</h4>
-
                                     <hr/>
-                                    <form action="/edit_account?action=add_balance&id=<?PHP print(urlencode($_GET['id'])); ?>" method="POST">
+
+                                    <form action="/edit_account?action=create_transaction&id=<?PHP print(urlencode($_GET['id'])); ?>" method="POST">
+
                                         <div class="form-group">
-                                            <label for="balance">Add to Balance</label>
-                                            <input type="text" id="balance" class="form-control" name="balance" value="0">
+                                            <label for="transaction_type">Transaction Type</label>
+                                            <select name="transaction_type" autocomplete="off" id="transaction_type" class="form-control">
+                                                <option value="0" selected="">Payment</option>
+                                                <option value="1">Subscription Payment</option>
+                                                <option value="2">Deposit</option>
+                                                <option value="3">Withdraw</option>
+                                                <option value="4">Refund</option>
+                                            </select>
                                         </div>
-                                        <button type="submit" class="btn btn-success">Add to balance</button>
-                                    </form>
 
-                                    <hr/>
-                                    <form action="/edit_account?action=remove_balance&id=<?PHP print(urlencode($_GET['id'])); ?>" method="POST">
                                         <div class="form-group">
-                                            <label for="balance">Remove from Balance</label>
-                                            <input type="text" id="balance" class="form-control" name="balance" value="0">
+                                            <label for="amount">Amount (U.S.) (Use negative values to substract from balance)</label>
+                                            <input type="text" id="amount" class="form-control" name="amount" value="0">
                                         </div>
-                                        <button type="submit" class="btn btn-danger">Remove from balance</button>
-                                    </form>
 
-                                    <hr/>
-                                    <button type="button" onclick="location.href='/edit_account?action=reset_balance&id=<?PHP print(urlencode($_GET['id'])); ?>'" class="btn btn-danger">Reset Balance</button>
+                                        <div class="form-group">
+                                            <label for="vendor">Vendor</label>
+                                            <input type="text" id="vendor" class="form-control" name="vendor" value="Intellivoid">
+                                        </div>
+
+                                        <input type="submit" class="btn btn-success" value="Process Transaction">
+
+                                    </form>
 
                                 </div>
                             </div>
