@@ -7,6 +7,7 @@
 
     \DynamicalWeb\DynamicalWeb::loadLibrary('Support', 'Support', 'Support.php');
     HTML::importScript('update_ticket_status');
+    HTML::importScript('update_ticket_notes');
     $Support = new \Support\Support();
 
     $SupportTicket = $Support->getTicketManager()->getSupportTicket(\Support\Abstracts\SupportTicketSearchMethod::byId, $_GET['id']);
@@ -127,7 +128,7 @@
                                 </div>
                                 <div class="x_content">
 
-                                    <form>
+                                    <form action="/view_support_ticket?action=update_admin_notes&id=<?PHP print(urlencode($_GET['id'])); ?>" method="POST">
                                         <div class="form-group">
                                             <label for="subject">Subject</label>
                                             <input type="text" id="subject" class="form-control" name="subject" value="<?PHP HTML::print($SupportTicket->Subject); ?>" readonly>
