@@ -42,3 +42,15 @@
 
 <!-- Custom Theme Scripts -->
 <script src="/assets/js/custom.min.js"></script>
+
+<script>
+    function launchFullScreen(element) {
+        if(element.requestFullScreen) {
+            element.requestFullScreen();
+        } else if(element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();
+        } else if(element.webkitRequestFullScreen) {
+            element.webkitRequestFullScreen();
+        }
+    }
+</script>

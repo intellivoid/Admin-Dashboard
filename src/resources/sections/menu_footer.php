@@ -1,14 +1,14 @@
 <div class="sidebar-footer hidden-small">
-    <a data-toggle="tooltip" data-placement="top" title="Settings">
-        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+    <a data-toggle="tooltip" href="/terminal" data-placement="top" title="Terminal">
+        <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
     </a>
-    <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+    <a data-toggle="tooltip" onclick="launchFullScreen(document.documentElement);" data-placement="top" title="Enter Fullscreen">
         <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
     </a>
     <a data-toggle="tooltip" data-placement="top" title="Lock">
         <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
     </a>
-    <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+    <a data-toggle="tooltip" href="/logout" data-placement="top" title="Logout">
         <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
     </a>
 </div>
