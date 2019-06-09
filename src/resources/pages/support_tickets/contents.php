@@ -27,6 +27,33 @@
                     <div class="row">
                         <div class="x_panel">
                             <div class="x_title">
+                                <h2>Filter</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <form action="/support_tickets" method="GET">
+
+                                    <div class="form-group">
+                                        <label for="filter" class="control-label col-md-3 col-sm-3 col-xs-12">Filter Ticket Status</label>
+                                        <div class="col-md-9 col-sm-9 col-xs-12">
+                                            <select name="filter" autocomplete="off" id="filter" class="form-control">
+                                                <option value="0">Opened</option>
+                                                <option value="1">In Progress</option>
+                                                <option value="2">Unable to Resolve</option>
+                                                <option value="3">Resolved</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger">Filter</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="x_panel">
+                            <div class="x_title">
                                 <h2> OpenBlu VPN Servers
                                     <small>Servers hosted by OpenBlu</small>
                                 </h2>
