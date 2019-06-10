@@ -1,13 +1,15 @@
 <?php
 
-use DynamicalWeb\HTML;
+    use DynamicalWeb\DynamicalWeb;
+    use DynamicalWeb\HTML;
+    use OpenBlu\OpenBlu;
 
-\DynamicalWeb\DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
+    DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
 
-    $OpenBlu = new \OpenBlu\OpenBlu();
+    $OpenBlu = new OpenBlu();
 
 
-    function totalClientPages(\OpenBlu\OpenBlu $openBlu): int
+    function totalClientPages(OpenBlu $openBlu): int
     {
         $Query = "SELECT id FROM `clients`";
         $QueryResults = $openBlu->database->query($Query);
@@ -29,7 +31,7 @@ use DynamicalWeb\HTML;
         }
     }
 
-    function getClientPage(\OpenBlu\OpenBlu $openBlu, int $page): array
+    function getClientPage(OpenBlu $openBlu, int $page): array
     {
         $TotalPages = totalClientPages($openBlu);
 
@@ -74,7 +76,7 @@ use DynamicalWeb\HTML;
         }
     }
 
-    function printTable(\OpenBlu\OpenBlu $openBlu)
+    function printTable(OpenBlu $openBlu)
     {
 
         $Page = 1;
@@ -100,12 +102,12 @@ use DynamicalWeb\HTML;
                     break;
             }
             print("<a href=\"openblu_client?id=" . urlencode($client['id']) . "\">");
-            \DynamicalWeb\HTML::print($client['id']);
+            HTML::print($client['id']);
             print("</a>");
             print("</th>");
 
             print("<td>");
-            \DynamicalWeb\HTML::print($client['public_id']);
+            HTML::print($client['public_id']);
             print("</td>");
 
             print("<td>");
@@ -120,15 +122,15 @@ use DynamicalWeb\HTML;
             print("</td>");
 
             print("<td>");
-            \DynamicalWeb\HTML::print($client['ip_address']);
+            HTML::print($client['ip_address']);
             print("</td>");
 
             print("<td>");
-            \DynamicalWeb\HTML::print($client['os_name']);
+            HTML::print($client['os_name']);
             print("</td>");
 
             print("<td>");
-            \DynamicalWeb\HTML::print($client['os_version']);
+            HTML::print($client['os_version']);
             print("</td>");
 
             print("<td>");
@@ -147,7 +149,7 @@ use DynamicalWeb\HTML;
 
     }
 
-    function printIndex(\OpenBlu\OpenBlu $openBlu)
+    function printIndex(OpenBlu $openBlu)
     {
         $TotalPages = totalClientPages($openBlu);
 
