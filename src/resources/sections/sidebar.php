@@ -46,6 +46,11 @@
                             <i class="fa fa-globe" style="font-size: 12px"></i> API Requests
                         </a>
                     </li>
+                    <li>
+                        <a href="/openblu_clients">
+                            <i class="fa fa-desktop" style="font-size: 12px"></i> Clients
+                        </a>
+                    </li>
                 </ul>
 
             </li>
