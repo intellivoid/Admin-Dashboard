@@ -5,6 +5,19 @@
     HTML::importScript('check_auth');
     HTML::importScript('require_auth');
 
+    if(isset($_GET['action']) == true)
+    {
+        if($_GET['action'] == 'block_client')
+        {
+            HTML::importScript('block_client');
+        }
+
+        if($_GET['action'] == 'unblock_client')
+        {
+            HTML::importScript('unblock_client');
+        }
+    }
+
     \DynamicalWeb\DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
     $OpenBlu = new \OpenBlu\OpenBlu();
     $Client = $OpenBlu->getClientManager()->getClient(\OpenBlu\Abstracts\SearchMethods\ClientSearchMethod::byId, $_GET['id']);

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Admin-Dashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Admin-Dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_clients/scripts/list_clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_clients/scripts/list_clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/shared/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/shared/configuration.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +63,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="39" column="144" selection-start-line="39" selection-start-column="144" selection-end-line="39" selection-end-column="144" />
+            <state relative-caret-position="456">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-665">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -95,7 +138,12 @@
         <option value="$PROJECT_DIR$/src/resources/sections/sidebar.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_clients/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_clients/scripts/list_clients.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/ban_client.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/shared/configuration.json" />
+        <option value="$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php" />
       </list>
     </option>
   </component>
@@ -110,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +249,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,13 +257,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\openblu_client\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\libraries" />
     </key>
@@ -255,18 +304,19 @@
       <workItem from="1560105580930" duration="3472000" />
       <workItem from="1560129718445" duration="3386000" />
       <workItem from="1560195554988" duration="599000" />
-      <workItem from="1560197951362" duration="4621000" />
+      <workItem from="1560197951362" duration="6065000" />
+      <workItem from="1560283940645" duration="3890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40886000" />
+    <option name="totallyTimeSpent" value="46220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19515885" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -285,10 +335,10 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20953101" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2065053" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,10 +353,11 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3277592" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3282313" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.20953101" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2065053" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,9 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -544,9 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/start_plan.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/start_plan.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_clients/scripts/list_clients.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -578,10 +624,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="39" column="144" selection-start-line="39" selection-start-column="144" selection-end-line="39" selection-end-column="144" />
+        <state relative-caret-position="456">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
