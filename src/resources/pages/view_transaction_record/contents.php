@@ -4,10 +4,10 @@
 
     use DynamicalWeb\DynamicalWeb;
     use DynamicalWeb\HTML;
-use IntellivoidAccounts\Abstracts\OperatorType;
-use IntellivoidAccounts\Abstracts\SearchMethods\TransactionRecordSearchMethod;
-use IntellivoidAccounts\Abstracts\TransactionType;
-use IntellivoidAccounts\IntellivoidAccounts;
+    use IntellivoidAccounts\Abstracts\OperatorType;
+    use IntellivoidAccounts\Abstracts\SearchMethods\TransactionRecordSearchMethod;
+    use IntellivoidAccounts\Abstracts\TransactionType;
+    use IntellivoidAccounts\IntellivoidAccounts;
 
     HTML::importScript('check_auth');
     HTML::importScript('require_auth');
