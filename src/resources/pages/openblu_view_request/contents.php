@@ -65,7 +65,7 @@
                                         </tr>
                                         <tr>
                                             <td>Client IP</td>
-                                            <td><?PHP HTML::print($Row['client_ip']); ?></td>
+                                            <td><a href="ip_lookup?ip=<?PHP urlencode($Row['client_ip']); ?>"><?PHP HTML::print($Row['client_ip']); ?></a></td>
                                         </tr>
                                         <tr>
                                             <td>Version</td>

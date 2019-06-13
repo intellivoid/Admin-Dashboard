@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/ip_lookup/contents.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/shared/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/shared/configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,51 +66,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/ip_lookup/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-665">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="2712">
+              <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
+              <folding>
+                <element signature="e#65#95#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="67" column="105" selection-start-line="67" selection-start-column="105" selection-end-line="67" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="103" column="80" selection-start-line="103" selection-start-column="80" selection-end-line="103" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="111" column="86" selection-start-line="111" selection-start-column="86" selection-end-line="111" selection-end-column="86" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="16" />
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_api/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="271">
+              <caret line="122" column="49" lean-forward="true" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -121,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_status.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/view_support_ticket/contents.php" />
@@ -142,8 +159,13 @@
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php" />
-        <option value="$PROJECT_DIR$/src/resources/shared/configuration.json" />
         <option value="$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php" />
+        <option value="$PROJECT_DIR$/src/resources/shared/configuration.json" />
+        <option value="$PROJECT_DIR$/src/resources/pages/ip_lookup/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php" />
       </list>
     </option>
   </component>
@@ -158,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,23 +211,6 @@
               <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Support" type="462c0819:PsiDirectoryNode" />
-              <item name="Abstracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,7 +219,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="openblu_client" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -221,7 +227,74 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="openblu_edit_plan" type="462c0819:PsiDirectoryNode" />
+              <item name="ip_lookup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login_records" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login_records" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_requests" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_servers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_servers" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_view_request" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +322,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,13 +329,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/openblu_client/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/ip_lookup" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\ip_lookup" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\openblu_client\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\libraries" />
@@ -306,17 +379,19 @@
       <workItem from="1560195554988" duration="599000" />
       <workItem from="1560197951362" duration="6065000" />
       <workItem from="1560283940645" duration="3890000" />
+      <workItem from="1560381196419" duration="1899000" />
+      <workItem from="1560391521341" duration="1745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46220000" />
+    <option name="totallyTimeSpent" value="49864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19591528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,20 +439,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/configuration.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/libraries/Support/Objects/SupportTicket.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510" />
@@ -624,6 +685,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -631,34 +699,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="16" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php">
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_api/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-665">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="271">
+          <caret line="122" column="49" lean-forward="true" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="111" column="86" selection-start-line="111" selection-start-column="86" selection-end-line="111" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/ip_lookup/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2712">
+          <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
+          <folding>
+            <element signature="e#65#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="67" column="105" selection-start-line="67" selection-start-column="105" selection-end-line="67" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="103" column="80" selection-start-line="103" selection-start-column="80" selection-end-line="103" selection-end-column="80" />
         </state>
       </provider>
     </entry>

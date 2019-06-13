@@ -8,7 +8,8 @@
 		"linux_location": "/home/netkas/Documents/gits/openblu-api/src"
 	},
 	"ip_stack": {
-		"api_key": "bdd0c9563a2932fb1838060e7242c602c",
-		"endpoint": "http://api.ipstack.com/"
+		"access_key": "bdd0c9563a2932fb1838060e7242c602",
+		"use_ssl": false,
+		"host": "api.ipstack.com"
 	}
 }

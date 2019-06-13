@@ -109,7 +109,9 @@
             print("</td>");
 
             print("<td>");
+            print("<a href=\"ip_lookup?ip=" . urlencode($login_record['ip_address']) . "\">");
             \DynamicalWeb\HTML::print($login_record['ip_address']);
+            print("</a>");
             print("</td>");
 
             print("<td>");

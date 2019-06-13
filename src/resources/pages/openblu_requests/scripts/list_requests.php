@@ -124,7 +124,9 @@
             print("</td>");
 
             print("<td>");
+            print("<a href=\"ip_lookup?ip=" . urlencode($request['client_ip']) . "\">");
             \DynamicalWeb\HTML::print($request['client_ip']);
+            print("</a>");
             print("</td>");
 
             print("<td>");

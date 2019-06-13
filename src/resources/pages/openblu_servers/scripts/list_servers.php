@@ -101,7 +101,9 @@
             print("</td>");
 
             print("<td>");
+            print("<a href=\"ip_lookup?ip=" . urlencode($server['ip_address']) . "\">");
             \DynamicalWeb\HTML::print($server['ip_address']);
+            print("</a>");
             print("</td>");
 
             print("<td>");
