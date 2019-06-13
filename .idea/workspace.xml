@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="391">
+              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="e#68#90#0#PHP" expanded="true" />
               </folding>
@@ -90,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -166,8 +162,8 @@
         <option value="$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/sidebar.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_requests.php" />
-        <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" />
       </list>
     </option>
   </component>
@@ -392,12 +388,12 @@
       <workItem from="1560283940645" duration="3890000" />
       <workItem from="1560381196419" duration="1899000" />
       <workItem from="1560391521341" duration="3603000" />
-      <workItem from="1560396833235" duration="1354000" />
+      <workItem from="1560396833235" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53076000" />
+    <option name="totallyTimeSpent" value="53177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -766,22 +762,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="e#68#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
           <folding>
             <element signature="e#11#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="e#68#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
