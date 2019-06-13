@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/sections/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/shared/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/shared/configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/shared/web_config.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,13 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="intellivoid: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="transaction_records: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="openblu: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
       <path>
@@ -62,11 +69,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+            <state relative-caret-position="195">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="e#68#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+              <folding>
+                <element signature="e#11#41#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="125" column="35" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/sections/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_web_application/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -104,9 +162,12 @@
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php" />
-        <option value="$PROJECT_DIR$/src/resources/sections/sidebar.php" />
         <option value="$PROJECT_DIR$/src/resources/shared/configuration.json" />
         <option value="$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/sections/sidebar.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_requests.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php" />
       </list>
     </option>
   </component>
@@ -121,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +276,39 @@
               <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_web_application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="support_tickets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="support_tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction_records" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,6 +330,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,13 +338,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\transaction_records\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\ip_lookup" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\openblu_client\scripts" />
@@ -295,18 +391,19 @@
       <workItem from="1560197951362" duration="6065000" />
       <workItem from="1560283940645" duration="3890000" />
       <workItem from="1560381196419" duration="1899000" />
-      <workItem from="1560391521341" duration="3467000" />
+      <workItem from="1560391521341" duration="3603000" />
+      <workItem from="1560396833235" duration="1354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51586000" />
+    <option name="totallyTimeSpent" value="53076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -354,21 +451,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="92" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/start_plan.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/view_support_ticket/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_status.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -376,13 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" selection-start-line="39" selection-start-column="11" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_web_application/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3689">
-          <caret line="217" column="66" selection-start-line="214" selection-start-column="60" selection-end-line="217" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -549,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="125" column="71" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/start_plan.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_clients/scripts/list_clients.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,16 +723,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/sections/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json" />
     <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -672,10 +731,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_web_application/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/sections/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_requests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        <state relative-caret-position="195">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="125" column="35" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#68#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+          <folding>
+            <element signature="e#11#41#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

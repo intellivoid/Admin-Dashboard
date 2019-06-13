@@ -22,6 +22,11 @@
                             <i class="fa fa-support" style="font-size: 12px"></i> Support Tickets
                         </a>
                     </li>
+                    <li>
+                        <a href="/transaction_records">
+                            <i class="fa fa-dollar" style="font-size: 12px"></i> Transaction Records
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li><a><i class="fa fa-key"></i> OpenBlu <span class="fa fa-chevron-down"></span></a>
