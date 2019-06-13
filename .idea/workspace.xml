@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/view_transaction_record/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,62 +66,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/view_transaction_record/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            <state relative-caret-position="353">
+              <caret line="115" column="62" selection-start-line="115" selection-start-column="62" selection-end-line="115" selection-end-column="62" />
               <folding>
-                <element signature="e#68#90#0#PHP" expanded="true" />
+                <element signature="e#65#95#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
-              <folding>
-                <element signature="e#11#41#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="125" column="35" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/sections/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_web_application/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -164,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_requests.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/view_transaction_record/contents.php" />
       </list>
     </option>
   </component>
@@ -305,6 +259,14 @@
               <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="view_transaction_record" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,7 +296,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -342,8 +304,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\transaction_records\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages" />
+      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\transaction_records\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\ip_lookup" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\openblu_client\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\libraries" />
@@ -388,18 +350,18 @@
       <workItem from="1560283940645" duration="3890000" />
       <workItem from="1560381196419" duration="1899000" />
       <workItem from="1560391521341" duration="3603000" />
-      <workItem from="1560396833235" duration="1455000" />
+      <workItem from="1560396833235" duration="3721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53177000" />
+    <option name="totallyTimeSpent" value="55443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -447,9 +409,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_status.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/libraries/Support/Utilities/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -762,22 +721,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="e#68#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+        <state relative-caret-position="168">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="e#11#41#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/view_transaction_record/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        <state relative-caret-position="353">
+          <caret line="115" column="62" selection-start-line="115" selection-start-column="62" selection-end-line="115" selection-end-column="62" />
           <folding>
-            <element signature="e#68#90#0#PHP" expanded="true" />
+            <element signature="e#65#95#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
