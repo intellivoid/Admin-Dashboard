@@ -3,6 +3,10 @@
 		"location": "C:\\Users\\Netkas\\Documents\\gits\\OpenBlu-Web-Application\\src",
 		"linux_location": "/home/netkas/Documents/gits/openblu-web-application/src"
 	},
+	"intellivoid_website": {
+		"location": "C:\\Users\\Netkas\\Documents\\gits\\Intellivoid-Website\\src",
+		"linux_location": "/home/netkas/Documents/gits/intellivoid-website/src"
+	},
 	"openblu_api": {
 		"location": "C:\\Users\\Netkas\\Documents\\gits\\OpenBluAPI\\src",
 		"linux_location": "/home/netkas/Documents/gits/openblu-api/src"

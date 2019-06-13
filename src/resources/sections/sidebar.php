@@ -61,6 +61,11 @@
                             <i class="fa fa-desktop" style="font-size: 12px"></i> OpenBlu Web Application
                         </a>
                     </li>
+                    <li>
+                        <a href="/intellivoid_website">
+                            <i class="fa fa-desktop" style="font-size: 12px"></i> Intellivoid Website
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li><a><i class="fa fa-code"></i> API Services <span class="fa fa-chevron-down"></span></a>
