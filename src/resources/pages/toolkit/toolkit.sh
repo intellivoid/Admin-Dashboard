@@ -85,6 +85,8 @@ iv_proc_choice(){
 			iv_install;;
 		BACK)
 			iv_backup;;
+		R_UPDATE)
+		    iv_r_update;;
 		EXIT)
 			clear
 			exit;;
@@ -141,6 +143,13 @@ iv_backup(){
 	iv_alert "Backup Configuration Files" "Backup done! File created $BACKUP_NAME.imgc"
 	iv_mainMenu
 }
+iv_r_update(){
+    clear
+	apt-get update
+	apt-get -y upgrade
+	iv_alert "System Update" "Update Completed"
+	iv_mainMenu
+}
 iv_mainMenu(){
 	DIALOG=${DIALOG=dialog}
 	tempfile=`tempfile 2>/dev/null` || tempfile=/tmp/test$$
@@ -151,6 +160,7 @@ iv_mainMenu(){
 	        "IV_EC" "Edit configuration Files" \
 	        "INST"  "Installs/Updates a Service from Source" \
 	        "BACK"  "Backup json & ini files to a single .cimg file" \
+	        "R_UPDATE" "Updates the system" \
 	        "EXIT"  "Exits this Program" 2> $tempfile
 
 	retval=$?
