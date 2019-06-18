@@ -46,7 +46,58 @@ iv_getInput(){
 	    ;;
 	esac
 }
+iv_display_text(){
+DIALOG=${DIALOG=dialog}
+tempfile=`tempfile 2>/dev/null` || tempfile=/tmp/test$$
+trap "rm -f $tempfile" 0 1 2 5 15
 
+
+TEXT=$2
+test -f $TEXT || TEXT=../COPYING
+
+cat $TEXT | expand >> $tempfile
+
+$DIALOG --clear --backtitle "Intellivoid Technologies" --title "$1" --textbox "$tempfile" 22 77
+}
+iv_get_ssh_key(){
+    if [ -f "$HOME/.ssh/iv_toolkit" ]; then
+        iv_display_text "$HOME/.ssh/iv_toolkit" "$HOME/.ssh/iv_toolkit"
+        iv_display_text "$HOME/.ssh/iv_toolkit.pub" "$HOME/.ssh/iv_toolkit.pub"
+        iv_mainMenu
+		return
+	else
+	    iv_getInput "There is no SSH Key for IV_TOOLKIT, if you want to generate one type YES"
+		CONFIRMATION=$retval
+		if [ "$CONFIRMATION" != "YES" ]; then
+			iv_mainMenu
+			return
+		fi
+		iv_getInput "Enter your staff email"
+        STAFF_EMAIL=$retval
+        iv_getInput "Enter a password"
+        PASSWORD=$retval
+        iv_info "SSH Agent" "Creating SSH Key ..."
+		ssh-keygen -t rsa -b 4096 -C "$STAFF_EMAIL" -P "$PASSWORD" -f "$HOME/.ssh/iv_toolkit" -q
+		iv_alert "SSH Agent" "The SSH Key has been created!"
+		iv_get_ssh_key
+		return
+    fi
+
+}
+iv_banner(){
+
+
+
+printf "   /###### /##   /## /######## /######## /##       /##       /###### /##    /##  /######  /###### /####### \n"
+printf "  |_  ##_/| ### | ##|__  ##__/| ##_____/| ##      | ##      |_  ##_/| ##   | ## /##__  ##|_  ##_/| ##__  ##\n"
+printf "    | ##  | ####| ##   | ##   | ##      | ##      | ##        | ##  | ##   | ##| ##  \ ##  | ##  | ##  \ ##\n"
+printf "    | ##  | ## ## ##   | ##   | #####   | ##      | ##        | ##  |  ## / ##/| ##  | ##  | ##  | ##  | ##\n"
+printf "    | ##  | ##  ####   | ##   | ##__/   | ##      | ##        | ##   \  ## ##/ | ##  | ##  | ##  | ##  | ##\n"
+printf "    | ##  | ##\  ###   | ##   | ##      | ##      | ##        | ##    \  ###/  | ##  | ##  | ##  | ##  | ##\n"
+printf "   /######| ## \  ##   | ##   | ########| ########| ######## /######   \  #/   |  ######/ /######| #######/\n"
+printf "  |______/|__/  \__/   |__/   |________/|________/|________/|______/    \_/     \______/ |______/|_______/ \n"
+
+}
 iv_alert(){
 	#!/bin/sh
 	DIALOG=${DIALOG=dialog}
@@ -87,6 +138,15 @@ iv_proc_choice(){
 			iv_backup;;
 		R_UPDATE)
 		    iv_r_update;;
+		SSH)
+		    iv_get_ssh_key;;
+		SYNC)
+		    iv_git_sync;;
+		BASH)
+		    clear;
+		    iv_banner;
+		    bash;
+		    iv_mainMenu;;
 		EXIT)
 			clear
 			exit;;
@@ -96,7 +156,18 @@ iv_proc_choice(){
 iv_info(){
 	$DIALOG --backtitle "Intellivoid Technologies" --title "$1" --infobox "$2" 10 52
 }
-
+iv_git_sync(){
+    iv_getInput "Enter repo name to sync"
+	REPO_NAME=$retval
+	clear
+	if [ -d $REPO_NAME ]; then
+	    ssh-agent bash -c "ssh-add $HOME/.ssh/iv_toolkit; git -C "$REPO_NAME" pull"
+	else
+        ssh-agent bash -c "ssh-add $HOME/.ssh/iv_toolkit; git -C git@github.com:intellivoid/$REPO_NAME.git"
+	fi
+	iv_alert "Git Sync" "The repo has been synced successfully"
+	iv_mainMenu
+}
 iv_install(){
 	if [ -d "src" ]; then
 		iv_getInput "Destination Directory"
@@ -138,6 +209,10 @@ iv_install(){
 iv_backup(){
 	iv_getInput "Enter a name for this backup"
 	BACKUP_NAME=$retval
+	if [ "$BACKUP_NAME" == "" ]; then
+	    iv_mainMenu
+		return
+	fi
 	iv_info "Backup Configuration Files" "Running Backup Process"
 	iv_runphp_backup "$BACKUP_NAME"
 	iv_alert "Backup Configuration Files" "Backup done! File created $BACKUP_NAME.imgc"
@@ -156,11 +231,15 @@ iv_mainMenu(){
 	trap "rm -f $tempfile" 0 1 2 5 15
 
 	$DIALOG --clear --title "Intellivoid Toolkit" --backtitle "Intellivoid Technologies" \
-	        --menu "Intellivoid Toolkit" 20 51 15 \
+	        --menu "Choose an action" 20 51 15 \
 	        "IV_EC" "Edit configuration Files" \
 	        "INST"  "Installs/Updates a Service from Source" \
 	        "BACK"  "Backup json & ini files to a single .cimg file" \
+	        "SSH"  "Views the IV_TOOLKIT SSH Key" \
 	        "R_UPDATE" "Updates the system" \
+	        "R_INST"  "Installs a system dependency (Setup)" \
+	        "SYNC" "Syncs a git repo" \
+	        "BASH" "Invoke bash instance" \
 	        "EXIT"  "Exits this Program" 2> $tempfile
 
 	retval=$?
@@ -171,9 +250,15 @@ iv_mainMenu(){
 	  0)
 		iv_proc_choice $choice;;
 	  1)
-	    echo "Cancel pressed.";;
+	    clear;
+	    exit;;
 	  255)
-	    echo "ESC pressed.";;
+	    clear;
+	    exit;;
 	esac
 }
-iv_mainMenu;
+if (( $EUID != 0 )); then
+    iv_alert "Permissions Required" "This setup requires root"
+else
+    iv_mainMenu;
+fi

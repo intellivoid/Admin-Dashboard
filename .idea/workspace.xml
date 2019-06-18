@@ -95,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/toolkit/toolkit.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2022">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="105">
+              <caret line="233" column="36" selection-start-line="233" selection-start-column="36" selection-end-line="233" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -112,6 +112,7 @@
     <findStrings>
       <find>json</find>
       <find>file_put</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,9 +162,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-132" />
-    <option name="y" value="106" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="11" />
+    <option name="y" value="107" />
     <option name="width" value="1366" />
     <option name="height" value="740" />
   </component>
@@ -171,172 +172,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenBlu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="intellivoid_website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="ip_lookup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="openblu_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="openblu_view_request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="openblu_web_application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="support_tickets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="support_tickets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="transaction_records" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="view_transaction_record" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -400,20 +236,20 @@
       <workItem from="1560396833235" duration="4666000" />
       <workItem from="1560722300640" duration="2374000" />
       <workItem from="1560815250016" duration="1512000" />
-      <workItem from="1560818969245" duration="2364000" />
+      <workItem from="1560818969245" duration="12076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62638000" />
+    <option name="totallyTimeSpent" value="72350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="11" y="107" width="1366" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20801815" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" id="Structure" order="1" side_tool="true" visible="true" weight="0.25267994" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -787,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/toolkit/toolkit.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2022">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="105">
+          <caret line="233" column="36" selection-start-line="233" selection-start-column="36" selection-end-line="233" selection-end-column="36" />
         </state>
       </provider>
     </entry>
