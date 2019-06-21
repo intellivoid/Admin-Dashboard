@@ -27,6 +27,29 @@
                     <div class="row">
                         <div class="x_panel">
                             <div class="x_title">
+                                <h2>Filter</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <form action="/support_tickets" method="GET">
+
+                                    <div class="form-group">
+                                        <label for="filter" class="control-label col-md-3 col-sm-3 col-xs-12">Filter Ticket Status</label>
+                                        <div class="form-group">
+                                            <label for="price_per_cycle">Price Per Cycle</label>
+                                            <input type="text" id="price_per_cycle" class="form-control" name="price_per_cycle" value="0">
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger">Filter</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="x_panel">
+                            <div class="x_title">
                                 <h2> Transaction Records </h2>
                                 <div class="clearfix"></div>
                             </div>

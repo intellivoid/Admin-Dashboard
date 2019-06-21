@@ -46,6 +46,8 @@ th {
   width: 100%;
   max-width: 100%;
   margin-bottom: @line-height-computed;
+  display: block;
+  overflow: scroll;
   // Cells
   > thead,
   > tbody,
@@ -180,6 +182,7 @@ th {
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid @table-border-color;
+    display: block;
 
     // Tighten up spacing
     > .table {

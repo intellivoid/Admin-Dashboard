@@ -2540,6 +2540,7 @@ th {
 .table-responsive {
   min-height: 0.01%;
   overflow-x: auto;
+  display: block;
 }
 @media screen and (max-width: 767px) {
   .table-responsive {
@@ -2548,6 +2549,7 @@ th {
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
+    display: block;
   }
   .table-responsive > .table {
     margin-bottom: 0;
