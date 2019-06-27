@@ -11,5 +11,25 @@
       <user-name>admin</user-name>
       <introspection-schemas>*:intellivoid,openblu</introspection-schemas>
     </data-source>
+    <data-source name="Intellivoid Live" uuid="eaef09d2-5d8c-48d4-9c5c-824121c7a393">
+      <database-info product="MySQL" version="5.7.26-0ubuntu0.19.04.1" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MYSQL" exact-version="5.7.26" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>intellivoid</user-name>
+      <introspection-schemas>*:intellivoid</introspection-schemas>
+    </data-source>
+    <data-source name="CoffeeHouse Live" uuid="00ddc373-e7c0-480f-8782-e351d9dd9e7c">
+      <database-info product="MySQL" version="5.7.26-0ubuntu0.19.04.1" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MYSQL" exact-version="5.7.26" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>intellivoid</user-name>
+      <introspection-schemas>*:coffee_house</introspection-schemas>
+    </data-source>
   </component>
 </project>

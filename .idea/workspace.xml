@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/scripts/list_sessions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/scripts/list_messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/sections/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,38 +31,25 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CoffeeHouse Live" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CoffeeHouse Live" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CoffeeHouse Live" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="intellivoid: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="coffee_house: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CoffeeHouse Live" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="intellivoid: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="transaction_records: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="openblu: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="intellivoid@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="openblu: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="clients: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="coffee_house: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="foreign_sessions: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -64,22 +58,39 @@
     <favorites_list name="Admin-Dashboard" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/libraries/CoffeeHouse/acm/acm.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_access_key/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="61" column="46" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="61" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/scripts/list_messages.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/sections/sidebar.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="83" column="17" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="83" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="127">
+              <caret line="120" column="100" selection-start-line="120" selection-start-column="100" selection-end-line="120" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -97,6 +108,9 @@
       <find>// Responsive tables</find>
       <find>min-height: .01%</find>
       <find>#1ABB9C</find>
+      <find>80</find>
+      <find>300</find>
+      <find>100</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,6 +162,11 @@
         <option value="$PROJECT_DIR$/src/assets/vendors/bootstrap/dist/css/bootstrap.min.css.map" />
         <option value="$PROJECT_DIR$/src/assets/vendors/bootstrap/dist/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/resources/sections/sidebar.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/scripts/list_requests.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/scripts/list_sessions.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/scripts/list_messages.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php" />
       </list>
     </option>
   </component>
@@ -162,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +211,55 @@
               <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_chat_sessions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_chat_sessions" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_view_session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_view_session" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_edit_access_key" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,6 +281,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +289,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -229,8 +297,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\libraries" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages" />
+      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\libraries" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\transaction_records\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\ip_lookup" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\openblu_client\scripts" />
@@ -282,18 +350,19 @@
       <workItem from="1560894863929" duration="2625000" />
       <workItem from="1561151027883" duration="2315000" />
       <workItem from="1561577704402" duration="603000" />
-      <workItem from="1561610076789" duration="259000" />
+      <workItem from="1561610076789" duration="468000" />
+      <workItem from="1561652646024" duration="4432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78776000" />
+    <option name="totallyTimeSpent" value="83417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.17397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.1762481" />
       <window_info id="Structure" order="1" sideWeight="0.5017007" side_tool="true" weight="0.17397882" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,7 +381,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.2065053" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2065053" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
@@ -341,53 +410,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/libraries/Support/Abstracts/TicketStatus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_clients/scripts/search.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="71" column="26" selection-start-line="36" selection-start-column="20" selection-end-line="71" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/list_plans.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="105" column="27" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="105" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/start_plan.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_clients/scripts/list_clients.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="e#7#37#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_clients/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://82264be9-a7f4-4ae1-b6a4-2a6d703820e7/schema/openblu/table/clients">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -417,13 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_api/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="122" column="49" lean-forward="true" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_api/contents.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -463,21 +479,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json" />
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_requests.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/view_transaction_record/contents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -485,13 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_web_application/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_web_application/contents.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1824">
@@ -661,15 +658,65 @@
     <entry file="file://$PROJECT_DIR$/src/resources/libraries/CoffeeHouse/acm/acm.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="92" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00ddc373-e7c0-480f-8782-e351d9dd9e7c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eaef09d2-5d8c-48d4-9c5c-824121c7a393/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/sections/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="83" column="17" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="367">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/scripts/list_sessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/scripts/list_messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_access_key/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="61" column="46" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="61" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="120" column="100" selection-start-line="120" selection-start-column="100" selection-end-line="120" selection-end-column="106" />
         </state>
       </provider>
     </entry>

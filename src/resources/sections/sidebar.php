@@ -58,7 +58,30 @@
                     </li>
                 </ul>
             </li>
-
+            <li><a><i class="fa fa-coffee"></i> CoffeeHouse <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li>
+                        <a href="/coffee_house_plans">
+                            <i class="fa fa-buysellads" style="font-size: 12px"></i> API Plans
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/coffee_house_access_keys">
+                            <i class="fa fa-gear" style="font-size: 12px"></i> API Access Keys
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/coffee_house_requests">
+                            <i class="fa fa-globe" style="font-size: 12px"></i> API Requests
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/coffee_house_chat_sessions">
+                            <i class="fa fa-mobile-phone" style="font-size: 12px"></i> Chat Sessions
+                        </a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
     <div class="menu_section">
