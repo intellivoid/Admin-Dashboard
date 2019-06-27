@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/contents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/cancel_plan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/start_plan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/update_plan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,74 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="81" column="65" selection-start-line="81" selection-start-column="65" selection-end-line="81" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/start_plan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1896">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/update_plan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/cancel_plan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="134" selection-start-line="134" selection-end-line="134" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="116" column="70" lean-forward="true" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_plans/scripts/create_plan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="929">
-              <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/scripts/update_plan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            <state relative-caret-position="305">
+              <caret line="210" column="14" selection-start-line="210" selection-start-column="14" selection-end-line="210" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -211,12 +143,12 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a460ff34-8e10-494b-96c3-84f1b50b530d/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/00ddc373-e7c0-480f-8782-e351d9dd9e7c/console.sql" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/scripts/update_plan.php" />
-        <option value="$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/start_plan.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/update_plan.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/cancel_plan.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php" />
       </list>
     </option>
   </component>
@@ -269,16 +201,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="coffee_house_edit_plan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="coffee_house_edit_plan" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_edit_plan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -376,12 +299,12 @@
       <workItem from="1561151027883" duration="2315000" />
       <workItem from="1561577704402" duration="603000" />
       <workItem from="1561610076789" duration="468000" />
-      <workItem from="1561652646024" duration="10640000" />
+      <workItem from="1561652646024" duration="10747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89625000" />
+    <option name="totallyTimeSpent" value="89732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -737,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="116" column="70" lean-forward="true" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -774,8 +690,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_plan/scripts/cancel_plan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="192">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="210" column="14" selection-start-line="210" selection-start-column="14" selection-end-line="210" selection-end-column="14" />
         </state>
       </provider>
     </entry>
