@@ -2,14 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/contents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/scripts/list_sessions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/scripts/list_messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_plan.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/AnalyticsManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/AnalyticsManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/Managers/Manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/Managers/Manager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Options.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Regex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/BufferStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/BufferStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/DecodingOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/DecodingOptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/EncodingOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/EncodingOptions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/DecodingFailedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/DecodingFailedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/EncodingFailedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/EncodingFailedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InsufficientDataException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InsufficientDataException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/IntegerOverflowException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/IntegerOverflowException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InvalidOptionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InvalidOptionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Ext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Ext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Packet.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Packet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Binary.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Binary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/BinaryTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/BinaryTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Extension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/MapTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/MapTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/ZiProto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/ZiProto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/analytics_manager.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/analytics_manager.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/RecordManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/RecordManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/Managers/AccessKeyManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/Managers/AccessKeyManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/ModularAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/ModularAPI.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/configuration.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/modular-api.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/modular-api.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Objects/VPN.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Objects/VPN.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/OpenBlu.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/OpenBlu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/configuration.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/configuration.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/openblu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/openblu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,37 +87,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/contents.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_access_key/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="61" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/scripts/list_messages.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="-1512">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_plan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="120" column="100" selection-start-line="120" selection-start-column="100" selection-end-line="120" selection-end-column="106" />
+            <state relative-caret-position="151">
+              <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-305">
+              <caret line="330" column="33" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -111,6 +142,8 @@
       <find>80</find>
       <find>300</find>
       <find>100</find>
+      <find>AccountID</find>
+      <find>$Plan-</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,14 +200,17 @@
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/scripts/list_messages.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_chat_sessions/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_plan.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="y" value="5" />
-    <option name="width" value="1130" />
-    <option name="height" value="624" />
+    <option name="x" value="53" />
+    <option name="y" value="18" />
+    <option name="width" value="1302" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -253,7 +289,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="openblu_edit_access_key" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_edit_plan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_edit_plan" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_plans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="openblu_plans" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -289,7 +351,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -297,11 +359,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\openblu_plans\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\libraries" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\transaction_records\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\ip_lookup" />
-      <recent name="C:\Users\Netkas\Documents\gits\Admin-Dashboard\src\resources\pages\openblu_client\scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,12 +413,12 @@
       <workItem from="1561151027883" duration="2315000" />
       <workItem from="1561577704402" duration="603000" />
       <workItem from="1561610076789" duration="468000" />
-      <workItem from="1561652646024" duration="4432000" />
+      <workItem from="1561652646024" duration="6022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83417000" />
+    <option name="totallyTimeSpent" value="85007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -410,36 +472,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://82264be9-a7f4-4ae1-b6a4-2a6d703820e7/schema/openblu/table/clients">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/block_client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/scripts/unblock_client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/ipstack.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_client/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_api/contents.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -555,13 +587,6 @@
           <folding>
             <element signature="e#68#90#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="93" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -715,8 +740,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_session/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="120" column="100" selection-start-line="120" selection-start-column="100" selection-end-line="120" selection-end-column="106" />
+        <state relative-caret-position="415">
+          <caret line="147" column="44" lean-forward="true" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_clients/contents.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_edit_plan/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="330" column="33" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_plan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
         </state>
       </provider>
     </entry>

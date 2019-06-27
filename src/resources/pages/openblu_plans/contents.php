@@ -13,6 +13,11 @@
             {
                 HTML::importScript('search');
             }
+
+            if($_GET['action'] == 'create_plan')
+            {
+                HTML::importScript('create_plan');
+            }
         }
     }
 
@@ -65,8 +70,64 @@
                                     </div>
 
                                     <button type="submit" class="btn btn-danger">Search</button>
+                                    <button type="button" class="btn btn-success" data-toggle="modal" data-target=".create-plan-modal">Create New Plan</button>
 
                                 </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade create-plan-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <form action="/openblu_plans?action=create_plan" method="POST">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                        </button>
+                                        <h4 class="modal-title" id="create_plan_title">Create Plan</h4>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <div class="form-group">
+                                            <label for="account_id">Account ID</label>
+                                            <input type="text" id="account_id" class="form-control" name="account_id" value="1">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="plan_type">Plan Type</label>
+                                            <select name="plan_type" autocomplete="off" id="plan_type" class="form-control">
+                                                <option value="0">Free</option>
+                                                <option value="1">Basic</option>
+                                                <option value="2">Enterprise</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="monthly_calls">Monthly Calls</label>
+                                            <input type="text" id="monthly_calls" class="form-control" name="monthly_calls" value="1000">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="billing_cycle">Billing Cycle (Unix Timestamp)</label>
+                                            <input type="text" id="billing_cycle" class="form-control" name="billing_cycle" value="86400">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="price_per_cycle">Price Per Cycle</label>
+                                            <input type="text" id="price_per_cycle" class="form-control" name="price_per_cycle" value="0">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="promotion_code">Promotion Code</label>
+                                            <input type="text" id="promotion_code" class="form-control" name="promotion_code" value="NORMAL">
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <input type="submit" value="Create Plan" class="btn btn-primary">
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
