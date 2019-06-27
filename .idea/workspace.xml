@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_plan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/AnalyticsManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/AnalyticsManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/Managers/Manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/Managers/Manager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Options.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Abstracts/Regex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/BufferStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/BufferStream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/DecodingOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/DecodingOptions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/EncodingOptions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/EncodingOptions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/DecodingFailedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/DecodingFailedException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/EncodingFailedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/EncodingFailedException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InsufficientDataException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InsufficientDataException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/IntegerOverflowException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/IntegerOverflowException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InvalidOptionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Exception/InvalidOptionException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Ext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Ext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Packet.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Packet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Binary.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Binary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/Type/Map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/BinaryTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/BinaryTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Extension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/MapTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/MapTransformer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/TypeTransformer/Validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/ZiProto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/ZiProto/ZiProto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/analytics_manager.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/AnalyticsManager/analytics_manager.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/RecordManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/RecordManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/Managers/AccessKeyManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/Managers/AccessKeyManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/ModularAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/ModularAPI.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/configuration.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/modular-api.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/ModularAPI/modular-api.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Objects/VPN.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Objects/VPN.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/OpenBlu.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/OpenBlu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/configuration.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/configuration.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/openblu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/OpenBlu/openblu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/sections/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/navigation.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_plan.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
               <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/sections/navigation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -152,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_status.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/view_support_ticket/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/view_support_ticket/scripts/update_ticket_notes.php" />
@@ -203,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_plans/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/libraries/OpenBlu/Managers/PlanManager.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_plans/scripts/create_plan.php" />
+        <option value="$PROJECT_DIR$/src/resources/sections/navigation.php" />
       </list>
     </option>
   </component>
@@ -413,12 +388,12 @@
       <workItem from="1561151027883" duration="2315000" />
       <workItem from="1561577704402" duration="603000" />
       <workItem from="1561610076789" duration="468000" />
-      <workItem from="1561652646024" duration="6022000" />
+      <workItem from="1561652646024" duration="6100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85007000" />
+    <option name="totallyTimeSpent" value="85085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -673,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/sections/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/libraries/CoffeeHouse/acm/acm.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -787,6 +755,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/sections/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
         </state>
       </provider>
     </entry>
