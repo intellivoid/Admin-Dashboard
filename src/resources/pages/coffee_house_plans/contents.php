@@ -79,7 +79,7 @@
                     <div class="modal fade create-plan-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
                         <div class="modal-dialog modal-sm">
                             <div class="modal-content">
-                                <form action="/openblu_plans?action=create_plan" method="POST">
+                                <form action="/coffee_house_plans?action=create_plan" method="POST">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
                                         </button>
