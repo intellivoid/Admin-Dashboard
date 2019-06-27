@@ -52,9 +52,9 @@
         }
     }
 
-    if(isset($_POST['plan_started']))
+    if(isset($_POST['plan_type']))
     {
-        switch(strtolower($_POST['plan_started']))
+        switch(strtolower($_POST['plan_type']))
         {
             case '0':
                 $Plan->PlanType = \OpenBlu\Abstracts\APIPlan::Free;
