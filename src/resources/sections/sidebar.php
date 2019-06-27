@@ -57,31 +57,8 @@
                         </a>
                     </li>
                 </ul>
+            </li>
 
-            </li>
-            <li><a><i class="fa fa-cube"></i> Web Services <span class="fa fa-chevron-down"></span></a>
-                <ul class="nav child_menu">
-                    <li>
-                        <a href="/openblu_web_application">
-                            <i class="fa fa-desktop" style="font-size: 12px"></i> OpenBlu Web Application
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/intellivoid_website">
-                            <i class="fa fa-desktop" style="font-size: 12px"></i> Intellivoid Website
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li><a><i class="fa fa-code"></i> API Services <span class="fa fa-chevron-down"></span></a>
-                <ul class="nav child_menu">
-                    <li>
-                        <a href="/openblu_api">
-                            <i class="fa fa-code-fork" style="font-size: 12px"></i> OpenBlu API
-                        </a>
-                    </li>
-                </ul>
-            </li>
         </ul>
     </div>
     <div class="menu_section">
