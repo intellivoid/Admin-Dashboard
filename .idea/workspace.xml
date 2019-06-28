@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/contents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/scripts/list_access_keys.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/scripts/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/scripts/search_pub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_requests/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_requests/scripts/list_requests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,38 +62,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/scripts/search_pub.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="89" column="44" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_requests/scripts/list_requests.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+            <state relative-caret-position="298">
+              <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/scripts/search.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_requests/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="840">
+              <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -113,7 +93,6 @@
       <find>// Responsive tables</find>
       <find>min-height: .01%</find>
       <find>#1ABB9C</find>
-      <find>80</find>
       <find>300</find>
       <find>100</find>
       <find>AccountID</find>
@@ -121,6 +100,7 @@
       <find>coffee</find>
       <find>plans</find>
       <find>openblu</find>
+      <find>80</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/resources/pages/login_records/scripts/list_logins.php" />
-        <option value="$PROJECT_DIR$/src/resources/pages/ip_lookup/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_requests/scripts/list_requests.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php" />
@@ -180,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/scripts/search.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_access_keys/scripts/search_pub.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_requests/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_requests/scripts/list_requests.php" />
       </list>
     </option>
   </component>
@@ -232,7 +212,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="coffee_house_plans" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_requests" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -330,12 +319,12 @@
       <workItem from="1561151027883" duration="2315000" />
       <workItem from="1561577704402" duration="603000" />
       <workItem from="1561610076789" duration="468000" />
-      <workItem from="1561652646024" duration="11519000" />
+      <workItem from="1561652646024" duration="13772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90504000" />
+    <option name="totallyTimeSpent" value="92757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -390,16 +379,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/login/contents.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/toolkit/toolkit.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="258" column="1" lean-forward="true" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/transaction_records/contents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -728,8 +707,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_plans/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+        <state relative-caret-position="-185">
+          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_requests/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_requests/scripts/list_requests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
         </state>
       </provider>
     </entry>
