@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="" />
+    <list default="true" id="382ad004-87f7-4e83-8a30-7c36d183ef0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/scripts/generate_chart_js.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/scripts/generate_signatures.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,60 +63,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_requests/scripts/list_requests.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/scripts/generate_chart_js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-            </state>
+            <state relative-caret-position="-953" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_view_request/contents.php">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/scripts/generate_signatures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="67" column="111" selection-start-line="67" selection-start-column="111" selection-end-line="67" selection-end-column="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/shared/configuration.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="192">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="92" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="67" column="110" selection-start-line="67" selection-start-column="110" selection-end-line="67" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/configuration.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_requests/contents.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+            <state relative-caret-position="370">
+              <caret line="118" column="111" selection-start-line="118" selection-start-column="111" selection-end-line="118" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -146,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/resources/pages/openblu_servers/scripts/list_servers.php" />
-        <option value="$PROJECT_DIR$/src/resources/shared/configuration.json" />
         <option value="$PROJECT_DIR$/src/resources/pages/intellivoid_website/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_requests.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/transaction_records/scripts/list_transactions.php" />
@@ -197,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_requests/scripts/list_requests.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_view_request/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/openblu_view_request/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/scripts/generate_signatures.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/contents.php" />
       </list>
     </option>
   </component>
@@ -242,6 +212,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_edit_access_key" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Admin-Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee_house_edit_access_key" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Admin-Dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -372,12 +359,12 @@
       <workItem from="1561151027883" duration="2315000" />
       <workItem from="1561577704402" duration="603000" />
       <workItem from="1561610076789" duration="468000" />
-      <workItem from="1561652646024" duration="15675000" />
+      <workItem from="1561652646024" duration="15916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94660000" />
+    <option name="totallyTimeSpent" value="94901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -432,23 +419,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/scripts/list_tickets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/support_tickets/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="63" column="81" selection-start-line="63" selection-start-column="81" selection-end-line="63" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/vendors/bootstrap/dist/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/vendors/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -764,8 +734,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/shared/authentication.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="92" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="92" />
+        <state relative-caret-position="48">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/scripts/generate_chart_js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-953" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/scripts/generate_signatures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/coffee_house_edit_access_key/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="118" column="111" selection-start-line="118" selection-start-column="111" selection-end-line="118" selection-end-column="111" />
         </state>
       </provider>
     </entry>
