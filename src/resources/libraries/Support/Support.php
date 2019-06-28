@@ -3,8 +3,9 @@
 
     namespace Support;
 
+    use acm\acm;
+    use Exception;
     use mysqli;
-    use Support\Exceptions\ConfigurationNotFoundException;
     use Support\Managers\TicketManager;
 
     include_once(__DIR__ . DIRECTORY_SEPARATOR . 'Abstracts' . DIRECTORY_SEPARATOR . 'ExceptionCodes.php');
@@ -28,6 +29,13 @@
     include_once(__DIR__ . DIRECTORY_SEPARATOR . 'Utilities' . DIRECTORY_SEPARATOR . 'Hashing.php');
     include_once(__DIR__ . DIRECTORY_SEPARATOR . 'Utilities' . DIRECTORY_SEPARATOR . 'Validation.php');
 
+    if(class_exists('acm\acm') == false)
+    {
+        include_once(__DIR__ . DIRECTORY_SEPARATOR . 'acm' . DIRECTORY_SEPARATOR . 'acm.php');
+    }
+
+    include(__DIR__ . DIRECTORY_SEPARATOR . 'AutoConfig.php');
+
     /**
      * Class Support
      * @package Support
@@ -40,34 +48,35 @@
         private $database;
 
         /**
-         * @var array|bool
-         */
-        private $configuration;
-
-        /**
          * @var TicketManager
          */
         private $TicketManager;
 
         /**
+         * @var mixed
+         */
+        private $DatabaseConfiguration;
+
+        /**
+         * @var acm
+         */
+        private $acm;
+
+        /**
          * Support constructor.
-         * @throws ConfigurationNotFoundException
+         * @throws Exception
          */
         public function __construct()
         {
-            if(file_exists(__DIR__ . DIRECTORY_SEPARATOR . 'configuration.ini') == false)
-            {
-                throw new ConfigurationNotFoundException();
-            }
-
-            $this->configuration = parse_ini_file(__DIR__ . DIRECTORY_SEPARATOR . 'configuration.ini');
+            $this->acm = new acm(__DIR__, 'Intellivoid Support');
+            $this->DatabaseConfiguration = $this->acm->getConfiguration('Database');
 
             $this->database = new mysqli(
-                $this->configuration['DatabaseHost'],
-                $this->configuration['DatabaseUsername'],
-                $this->configuration['DatabasePassword'],
-                $this->configuration['DatabaseName'],
-                $this->configuration['DatabasePort']
+                $this->DatabaseConfiguration['Host'],
+                $this->DatabaseConfiguration['Username'],
+                $this->DatabaseConfiguration['Password'],
+                $this->DatabaseConfiguration['Name'],
+                $this->DatabaseConfiguration['Port']
             );
 
             $this->TicketManager = new TicketManager($this);
