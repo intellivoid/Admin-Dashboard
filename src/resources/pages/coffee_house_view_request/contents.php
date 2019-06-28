@@ -5,14 +5,14 @@
     HTML::importScript('check_auth');
     HTML::importScript('require_auth');
 
-    \DynamicalWeb\DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
-    $OpenBlu = new \OpenBlu\OpenBlu();
+    \DynamicalWeb\DynamicalWeb::loadLibrary('CoffeeHouse', 'CoffeeHouse', 'CoffeeHouse.php');
+    $CoffeeHouse = new \CoffeeHouse\CoffeeHouse();
 
     $ID = (int)$_GET['id'];
 
     $Query = "SELECT id, reference_id, execution_time, timestamp, client_ip, version, module, request_method, request_parameters, response_type, response_code, authentication_method, access_key_public_id, fatal_error, exception_details FROM `requests` WHERE id=$ID";
 
-    $QueryResults = $OpenBlu->database->query($Query);
+    $QueryResults = $CoffeeHouse->getDatabase()->query($Query);
     $Row = $QueryResults->fetch_array(MYSQLI_ASSOC);
 
 ?>
