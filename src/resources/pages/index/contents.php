@@ -1,26 +1,32 @@
 <?PHP
 
     /** @noinspection PhpUnhandledExceptionInspection */
+
+    use CoffeeHouse\CoffeeHouse;
+    use DynamicalWeb\DynamicalWeb;
     use DynamicalWeb\HTML;
+    use IntellivoidAccounts\IntellivoidAccounts;
+    use OpenBlu\OpenBlu;
+
     HTML::importScript('check_auth');
     HTML::importScript('require_auth');
 
 
-    \DynamicalWeb\DynamicalWeb::loadLibrary('IntellivoidAccounts', 'IntellivoidAccounts', 'IntellivoidAccounts.php');
-    \DynamicalWeb\DynamicalWeb::loadLibrary('CoffeeHouse', 'CoffeeHouse', 'CoffeeHouse.php');
-    \DynamicalWeb\DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
-    $IntellivoidAccounts = new \IntellivoidAccounts\IntellivoidAccounts();
-    $CoffeeHouse = new \CoffeeHouse\CoffeeHouse();
-    $OpenBlu = new \OpenBlu\OpenBlu();
+    DynamicalWeb::loadLibrary('IntellivoidAccounts', 'IntellivoidAccounts', 'IntellivoidAccounts.php');
+    DynamicalWeb::loadLibrary('CoffeeHouse', 'CoffeeHouse', 'CoffeeHouse.php');
+    DynamicalWeb::loadLibrary('OpenBlu', 'OpenBlu', 'OpenBlu.php');
+    $IntellivoidAccounts = new IntellivoidAccounts();
+    $CoffeeHouse = new CoffeeHouse();
+    $OpenBlu = new OpenBlu();
 
-    function get_total_accounts(\IntellivoidAccounts\IntellivoidAccounts $intellivoidAccounts): int
+    function get_total_accounts(IntellivoidAccounts $intellivoidAccounts): int
     {
         $Results = $intellivoidAccounts->database->query("SELECT COUNT(*) AS total FROM `users`");
         $Row = $Results->fetch_array();
         return $Row['total'];
     }
 
-    function get_total_api_requests(\CoffeeHouse\CoffeeHouse $coffeeHouse, \OpenBlu\OpenBlu $openBlu): int
+    function get_total_api_requests(CoffeeHouse $coffeeHouse, OpenBlu $openBlu): int
     {
         $Results = $coffeeHouse->getDatabase()->query("SELECT COUNT(*) AS total FROM `requests`");
         $Row = $Results->fetch_array();
@@ -33,28 +39,28 @@
         return $CoffeeHouseRequests + $OpenBluRequests;
     }
 
-    function get_total_ai_messages(\CoffeeHouse\CoffeeHouse $coffeeHouse): int
+    function get_total_ai_messages(CoffeeHouse $coffeeHouse): int
     {
         $Results = $coffeeHouse->getDatabase()->query("SELECT COUNT(*) AS total FROM `chat_dialogs`");
         $Row = $Results->fetch_array();
         return $Row['total'];
     }
 
-    function get_total_ai_sessions(\CoffeeHouse\CoffeeHouse $coffeeHouse): int
+    function get_total_ai_sessions(CoffeeHouse $coffeeHouse): int
     {
         $Results = $coffeeHouse->getDatabase()->query("SELECT COUNT(*) AS total FROM `foreign_sessions`");
         $Row = $Results->fetch_array();
         return $Row['total'];
     }
 
-    function get_total_vpn_servers(\OpenBlu\OpenBlu $openblu): int
+    function get_total_vpn_servers(OpenBlu $openblu): int
     {
         $Results = $openblu->database->query("SELECT COUNT(*) AS total FROM `vpns`");
         $Row = $Results->fetch_array();
         return $Row['total'];
     }
 
-    function get_total_support_tickets(\IntellivoidAccounts\IntellivoidAccounts $intellivoidAccounts): int
+    function get_total_support_tickets(IntellivoidAccounts $intellivoidAccounts): int
     {
         $Results = $intellivoidAccounts->database->query("SELECT COUNT(*) AS total FROM `support_tickets`");
         $Row = $Results->fetch_array();
