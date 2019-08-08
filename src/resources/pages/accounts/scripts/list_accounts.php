@@ -32,7 +32,7 @@
         $Query = null;
         if($page == 1)
         {
-            $Query = "SELECT id, public_id, username, email, status, last_login_id, creation_date FROM `users` LIMIT 0, 40";
+            $Query = "SELECT id, public_id, username, email, status, creation_date FROM `users` LIMIT 0, 40";
         }
         else
         {
@@ -49,7 +49,7 @@
                 }
             }
 
-            $Query = "SELECT id, public_id, username, email, status, last_login_id, creation_date FROM `users` LIMIT $StartingItem, 40";
+            $Query = "SELECT id, public_id, username, email, status, creation_date FROM `users` LIMIT $StartingItem, 40";
         }
 
         $QueryResults = $intellivoidAccounts->database->query($Query);
@@ -99,31 +99,44 @@
             switch($account['status'])
             {
                 case \IntellivoidAccounts\Abstracts\AccountStatus::Active:
-                    $Status = 'Active';
+                    $Status = '<span class="label label-success">Active</span>';
                     break;
 
                 case \IntellivoidAccounts\Abstracts\AccountStatus::Suspended:
-                    $Status = 'Suspended';
+                    $Status = '<span class="label label-danger">Suspended</span>';
                     break;
 
                 case \IntellivoidAccounts\Abstracts\AccountStatus::Limited:
-                    $Status = 'Limited';
+                    $Status = '<span class="label label-warning">Limited</span>';
                     break;
 
                 case \IntellivoidAccounts\Abstracts\AccountStatus::VerificationRequired:
-                    $Status = 'Verification Required';
+                    $Status = '<span class="label label-primary">Verification Required</span>';
                     break;
             }
             print("<td>");
-            \DynamicalWeb\HTML::print($Status);
-            print("</td>");
-
-            print("<td>");
-            \DynamicalWeb\HTML::print($account['last_login_id']);
+            \DynamicalWeb\HTML::print($Status, false);
             print("</td>");
 
             print("<td>");
             \DynamicalWeb\HTML::print($account['creation_date']);
+            print("</td>");
+
+            print("<td role=\"presentation\" class=\"dropdown\">");
+            ?>
+            <a id="drop<?PHP \DynamicalWeb\HTML::print($account['id']); ?>" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                Actions
+                <span class="caret"></span>
+            </a>
+            <ul id="menu3" class="dropdown-menu animated fadeInDown pull-right" role="menu" aria-labelledby="drop<?PHP \DynamicalWeb\HTML::print($account['id']); ?>">
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="/login_records&filter=<?PHP print(urlencode($account['id'])); ?>">View Login Records</a>
+                </li>
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="/login_records&filter=<?PHP print(urlencode($account['id'])); ?>">Export Account Data</a>
+                </li>
+            </ul>
+            <?PHP
             print("</td>");
 
             print("</tr>");

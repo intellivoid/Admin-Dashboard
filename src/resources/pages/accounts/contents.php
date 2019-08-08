@@ -28,7 +28,10 @@
                     <div class="row">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2> Accounts </h2>
+                                <h2>
+                                    Accounts
+                                    <small>Intellivoid Accounts that are currently registered</small>
+                                </h2>
 
                                 <div class="clearfix"></div>
                             </div>
@@ -42,8 +45,8 @@
                                             <th>Username</th>
                                             <th>Email</th>
                                             <th>Status</th>
-                                            <th>Last Login ID</th>
                                             <th>Creation Date</th>
+                                            <th>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
