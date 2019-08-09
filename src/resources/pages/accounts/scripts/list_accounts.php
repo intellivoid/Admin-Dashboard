@@ -133,7 +133,11 @@
                     <a role="menuitem" tabindex="-1" href="/login_records&filter=<?PHP print(urlencode($account['id'])); ?>">View Login Records</a>
                 </li>
                 <li role="presentation">
-                    <a role="menuitem" tabindex="-1" href="/login_records&filter=<?PHP print(urlencode($account['id'])); ?>">Export Account Data</a>
+                    <a role="menuitem" tabindex="-1" href="/accounts&action=export_account&id=<?PHP print(urlencode($account['id'])); ?>">Export Account Data</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="/edit_account&id=<?PHP print(urlencode($account['id'])); ?>">Manage Account</a>
                 </li>
             </ul>
             <?PHP

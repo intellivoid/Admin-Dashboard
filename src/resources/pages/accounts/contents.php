@@ -8,12 +8,13 @@
     \DynamicalWeb\DynamicalWeb::loadLibrary('IntellivoidAccounts', 'IntellivoidAccounts', 'IntellivoidAccounts.php');
 
     HTML::importScript('list_accounts');
+    HTML::importScript('export_account_data');
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Intellivoid Admin</title>
+        <title>Intellivoid Admin - Accounts</title>
     </head>
 
     <body class="nav-md">
