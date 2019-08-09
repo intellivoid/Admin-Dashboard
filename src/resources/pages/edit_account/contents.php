@@ -56,7 +56,7 @@
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Intellivoid Admin</title>
+        <title>Intellivoid Admin - Edit Account <?PHP HTML::print($Account->Username); ?> (<?PHP HTML::print($Account->PublicID); ?>)</title>
     </head>
 
     <body class="nav-md">
@@ -68,6 +68,7 @@
                 <?PHP HTML::importSection('navigation'); ?>
 
                 <div class="right_col" role="main">
+                    
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="x_panel">
