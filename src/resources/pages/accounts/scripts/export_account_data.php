@@ -101,6 +101,10 @@
                 {
                     $ExportData['OpenBlu']["PlanDetails"] = null;
                 }
+                catch(\OpenBlu\Exceptions\UpdateRecordNotFoundException $updateRecordNotFoundException)
+                {
+                    $ExportData['OpenBlu']["PlanDetails"] = null;
+                }
 
 
                 try
