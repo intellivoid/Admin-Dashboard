@@ -167,7 +167,7 @@
             }
 
             print("<li class=\"paginate_button \">");
-            print("<a href=\"/openblu_plans?page=$CurrentPage\" aria-controls=\"datatable-buttons\">$CurrentPage</a>");
+            print("<a href=\"/accounts?page=$CurrentPage\" aria-controls=\"datatable-buttons\">$CurrentPage</a>");
             print("</li>");
 
             $CurrentPage += 1;
